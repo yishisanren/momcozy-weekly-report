@@ -15,13 +15,13 @@ Weekly automation expectations:
 - Keep local files internal; do not send markdown paths by default.
 
 Content sections expected in H5:
-1. Management summary / P0-P2 actions
-2. App Store / Play Store rating trend radar
-3. Momcozy issue heatmap
-4. Competitor observations by business line
-5. Reddit community voice with original post/comment quotes
-6. Momcozy current-week raw reviews
-7. Data coverage / source gaps
+1. Hero only shows report title/period/source notes and 2-3 key guidance cards; do not show low-value KPI cards like total comments/brand count on the title side.
+2. Momcozy App section first: current-week review count, content analysis, raw reviews translated into Chinese while preserving originals side-by-side.
+3. Momcozy attention dimensions: replace generic heatmap wording with “需要关注的几个维度” such as device connection, core logging/session flow, stability/performance, multi-user/account setup.
+4. Momcozy App Store and Play Store rating trends are separated by platform. If historical ratings are still sparse, place this trend section after the review/content analysis, not as the first section.
+5. Competitor section: latest App Store / Play Store rating trends separated by platform, competitor review counts and content analysis by business line.
+6. Reddit section: categorize posts by theme; for each post include topic view, original post quote, and 1-3 strongly related replies.
+7. Data coverage / source gaps can be lower-priority or appendix-level.
 
 Data collection defaults:
 - App Store / Play Store countries: US, GB, CA, DE, FR
