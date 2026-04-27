@@ -1,0 +1,639 @@
+{
+  "Momcozy": {
+    "line": "自家",
+    "app_store": {
+      "weighted_score": 4.195232682563339,
+      "ratings": 671,
+      "countries": [
+        {
+          "country": "US",
+          "score": 4.17905,
+          "ratings": 525,
+          "name": "Momcozy",
+          "bundle": "com.root.momcozy"
+        },
+        {
+          "country": "GB",
+          "score": 4.34999,
+          "ratings": 20,
+          "name": "Momcozy",
+          "bundle": "com.root.momcozy"
+        },
+        {
+          "country": "CA",
+          "score": 4.67647,
+          "ratings": 68,
+          "name": "Momcozy",
+          "bundle": "com.root.momcozy"
+        },
+        {
+          "country": "DE",
+          "score": 3.1875,
+          "ratings": 32,
+          "name": "Momcozy",
+          "bundle": "com.root.momcozy"
+        },
+        {
+          "country": "FR",
+          "score": 4.38462,
+          "ratings": 26,
+          "name": "Momcozy",
+          "bundle": "com.root.momcozy"
+        }
+      ]
+    },
+    "play_store": {
+      "score": 3.32,
+      "ratings": 241,
+      "title": "Momcozy"
+    }
+  },
+  "Elvie": {
+    "line": "哺乳线",
+    "app_store": {
+      "weighted_score": 4.699909483814523,
+      "ratings": 16002,
+      "countries": [
+        {
+          "country": "US",
+          "score": 4.70998,
+          "ratings": 13913,
+          "name": "Pump with Elvie",
+          "bundle": "com.chiaro.elviepump"
+        },
+        {
+          "country": "GB",
+          "score": 4.63086,
+          "ratings": 1685,
+          "name": "Pump with Elvie",
+          "bundle": "com.chiaro.elviepump"
+        },
+        {
+          "country": "CA",
+          "score": 4.69718,
+          "ratings": 142,
+          "name": "Pump with Elvie",
+          "bundle": "com.chiaro.elviepump"
+        },
+        {
+          "country": "DE",
+          "score": 4.56897,
+          "ratings": 116,
+          "name": "Elvie Pump",
+          "bundle": "com.chiaro.elviepump"
+        },
+        {
+          "country": "FR",
+          "score": 4.64384,
+          "ratings": 146,
+          "name": "Elvie Pump",
+          "bundle": "com.chiaro.elviepump"
+        }
+      ]
+    },
+    "play_store": {
+      "score": 4.030488,
+      "ratings": 2498,
+      "title": "Pump with Elvie"
+    }
+  },
+  "Willow": {
+    "line": "哺乳线",
+    "app_store": {
+      "weighted_score": 4.496446556082149,
+      "ratings": 2532,
+      "countries": [
+        {
+          "country": "US",
+          "score": 4.50851,
+          "ratings": 2468,
+          "name": "Willow®",
+          "bundle": "com.willow.go"
+        },
+        {
+          "country": "CA",
+          "score": 4.03125,
+          "ratings": 64,
+          "name": "Willow®",
+          "bundle": "com.willow.go"
+        }
+      ]
+    },
+    "play_store": {
+      "score": 4.07,
+      "ratings": 409,
+      "title": "Willow®"
+    }
+  },
+  "Medela": {
+    "line": "哺乳线",
+    "app_store": {
+      "weighted_score": 4.265019839705533,
+      "ratings": 8422,
+      "countries": [
+        {
+          "country": "US",
+          "score": 4.25989,
+          "ratings": 4779,
+          "name": "Medela Family - Breast Feeding",
+          "bundle": "com.medela.mymedela"
+        },
+        {
+          "country": "GB",
+          "score": 4.29669,
+          "ratings": 755,
+          "name": "Medela Family - Breast Feeding",
+          "bundle": "com.medela.mymedela"
+        },
+        {
+          "country": "CA",
+          "score": 4.19421,
+          "ratings": 1627,
+          "name": "Medela Family - Breast Feeding",
+          "bundle": "com.medela.mymedela"
+        },
+        {
+          "country": "DE",
+          "score": 4.33936,
+          "ratings": 996,
+          "name": "Medela Family: Stillen Tracker",
+          "bundle": "com.medela.mymedela"
+        },
+        {
+          "country": "FR",
+          "score": 4.42264,
+          "ratings": 265,
+          "name": "Medela Family Allaitement Bébé",
+          "bundle": "com.medela.mymedela"
+        }
+      ]
+    },
+    "play_store": {
+      "score": 4.3114753,
+      "ratings": 8413,
+      "title": "Medela Family - Breast Feeding"
+    }
+  },
+  "Eufy Baby": {
+    "line": "哺乳线",
+    "app_store": {
+      "weighted_score": 4.662286616824702,
+      "ratings": 8226,
+      "countries": [
+        {
+          "country": "US",
+          "score": 4.67095,
+          "ratings": 7619,
+          "name": "eufy Baby",
+          "bundle": "com.security.care"
+        },
+        {
+          "country": "GB",
+          "score": 4,
+          "ratings": 1,
+          "name": "eufy Baby",
+          "bundle": "com.security.care"
+        },
+        {
+          "country": "CA",
+          "score": 4.6098,
+          "ratings": 592,
+          "name": "eufy Baby",
+          "bundle": "com.security.care"
+        },
+        {
+          "country": "DE",
+          "score": 2.21429,
+          "ratings": 14,
+          "name": "eufy Baby",
+          "bundle": "com.security.care"
+        }
+      ]
+    },
+    "play_store": {
+      "score": 4.1634617,
+      "ratings": 884,
+      "title": "eufy Baby"
+    }
+  },
+  "Perifit": {
+    "line": "孕产康线",
+    "app_store": {
+      "weighted_score": 4.8077415284928104,
+      "ratings": 11266,
+      "countries": [
+        {
+          "country": "US",
+          "score": 4.81425,
+          "ratings": 3973,
+          "name": "Perifit Care",
+          "bundle": "com.starshipproduct.perifit"
+        },
+        {
+          "country": "GB",
+          "score": 4.82104,
+          "ratings": 732,
+          "name": "Perifit Care",
+          "bundle": "com.starshipproduct.perifit"
+        },
+        {
+          "country": "CA",
+          "score": 4.81019,
+          "ratings": 1570,
+          "name": "Perifit Care",
+          "bundle": "com.starshipproduct.perifit"
+        },
+        {
+          "country": "DE",
+          "score": 4.78521,
+          "ratings": 1690,
+          "name": "Perifit Care",
+          "bundle": "com.starshipproduct.perifit"
+        },
+        {
+          "country": "FR",
+          "score": 4.80733,
+          "ratings": 3301,
+          "name": "Perifit Care",
+          "bundle": "com.starshipproduct.perifit"
+        }
+      ]
+    },
+    "play_store": {
+      "score": 4.7943926,
+      "ratings": 5852,
+      "title": "Perifit Care"
+    }
+  },
+  "Emy": {
+    "line": "孕产康线",
+    "app_store": {
+      "weighted_score": 4.786565744972577,
+      "ratings": 2188,
+      "countries": [
+        {
+          "country": "US",
+          "score": 4.93939,
+          "ratings": 33,
+          "name": "Emy - Kegel exercises",
+          "bundle": "com.fizimed.emy.app"
+        },
+        {
+          "country": "GB",
+          "score": 4.62162,
+          "ratings": 37,
+          "name": "Emy - Medical Kegel exercises",
+          "bundle": "com.fizimed.emy.app"
+        },
+        {
+          "country": "CA",
+          "score": 4.86667,
+          "ratings": 30,
+          "name": "Emy - Medical Kegel exercises",
+          "bundle": "com.fizimed.emy.app"
+        },
+        {
+          "country": "DE",
+          "score": 4.75113,
+          "ratings": 663,
+          "name": "Emy - Beckenbodentrainer",
+          "bundle": "com.fizimed.emy.app"
+        },
+        {
+          "country": "FR",
+          "score": 4.80211,
+          "ratings": 1425,
+          "name": "Emy - Exercices du périnée",
+          "bundle": "com.fizimed.emy.app"
+        }
+      ]
+    },
+    "play_store": {
+      "score": 3.7777777,
+      "ratings": 2095,
+      "title": "Emy - Kegel exercises"
+    }
+  },
+  "Clue": {
+    "line": "孕产康线",
+    "app_store": {
+      "weighted_score": 4.7188844981621685,
+      "ratings": 825157,
+      "countries": [
+        {
+          "country": "US",
+          "score": 4.76183,
+          "ratings": 392805,
+          "name": "Clue Period & Cycle Tracker",
+          "bundle": "com.helloclue.clue"
+        },
+        {
+          "country": "GB",
+          "score": 4.70946,
+          "ratings": 108362,
+          "name": "Clue Period & Cycle Tracker",
+          "bundle": "com.helloclue.clue"
+        },
+        {
+          "country": "CA",
+          "score": 4.69808,
+          "ratings": 61168,
+          "name": "Clue Period & Cycle Tracker",
+          "bundle": "com.helloclue.clue"
+        },
+        {
+          "country": "DE",
+          "score": 4.64055,
+          "ratings": 96543,
+          "name": "Clue Perioden Kalender",
+          "bundle": "com.helloclue.clue"
+        },
+        {
+          "country": "FR",
+          "score": 4.67671,
+          "ratings": 166279,
+          "name": "Clue calendrier des règles",
+          "bundle": "com.helloclue.clue"
+        }
+      ]
+    },
+    "play_store": {
+      "score": 4.458355,
+      "ratings": 1460773,
+      "title": "Clue Cycle & Period Tracker"
+    }
+  },
+  "Ovia": {
+    "line": "孕产康线",
+    "app_store": {
+      "weighted_score": 4.821569796511628,
+      "ratings": 94256,
+      "countries": [
+        {
+          "country": "US",
+          "score": 4.82601,
+          "ratings": 87954,
+          "name": "Ovia Cycle & Pregnancy Tracker",
+          "bundle": "com.ovuline"
+        },
+        {
+          "country": "CA",
+          "score": 4.7596,
+          "ratings": 6302,
+          "name": "Ovia Cycle & Pregnancy Tracker",
+          "bundle": "com.ovuline"
+        }
+      ]
+    },
+    "play_store": {
+      "score": 4.483749,
+      "ratings": 81231,
+      "title": "Ovia Cycle & Pregnancy Tracker"
+    }
+  },
+  "Nanit": {
+    "line": "睡眠看护线",
+    "app_store": {
+      "weighted_score": 4.659654307582299,
+      "ratings": 37759,
+      "countries": [
+        {
+          "country": "US",
+          "score": 4.67215,
+          "ratings": 33961,
+          "name": "Nanit",
+          "bundle": "com.udisense.nanit"
+        },
+        {
+          "country": "GB",
+          "score": 4.52064,
+          "ratings": 993,
+          "name": "Nanit",
+          "bundle": "com.udisense.nanit"
+        },
+        {
+          "country": "CA",
+          "score": 4.55373,
+          "ratings": 2736,
+          "name": "Nanit",
+          "bundle": "com.udisense.nanit"
+        },
+        {
+          "country": "DE",
+          "score": 4.52778,
+          "ratings": 36,
+          "name": "Nanit",
+          "bundle": "com.udisense.nanit"
+        },
+        {
+          "country": "FR",
+          "score": 4.90909,
+          "ratings": 33,
+          "name": "Nanit",
+          "bundle": "com.udisense.nanit"
+        }
+      ]
+    },
+    "play_store": {
+      "score": 3.9578393,
+      "ratings": 10369,
+      "title": "Nanit"
+    }
+  },
+  "Owlet": {
+    "line": "睡眠看护线",
+    "app_store": {
+      "weighted_score": 4.542821111310777,
+      "ratings": 38954,
+      "countries": [
+        {
+          "country": "US",
+          "score": 4.56058,
+          "ratings": 35813,
+          "name": "Owlet Dream",
+          "bundle": "com.owletcare.Sleep"
+        },
+        {
+          "country": "GB",
+          "score": 4.55775,
+          "ratings": 1013,
+          "name": "Owlet Dream",
+          "bundle": "com.owletcare.Sleep"
+        },
+        {
+          "country": "CA",
+          "score": 4.07949,
+          "ratings": 1258,
+          "name": "Owlet Dream",
+          "bundle": "com.owletcare.Sleep"
+        },
+        {
+          "country": "DE",
+          "score": 4.4677,
+          "ratings": 712,
+          "name": "Owlet Dream",
+          "bundle": "com.owletcare.Sleep"
+        },
+        {
+          "country": "FR",
+          "score": 4.44937,
+          "ratings": 158,
+          "name": "Owlet Dream",
+          "bundle": "com.owletcare.Sleep"
+        }
+      ]
+    },
+    "play_store": {
+      "score": 3.7052631,
+      "ratings": 5564,
+      "title": "Owlet Dream"
+    }
+  },
+  "Hatch": {
+    "line": "睡眠看护线",
+    "app_store": {
+      "weighted_score": 4.554409934118088,
+      "ratings": 64054,
+      "countries": [
+        {
+          "country": "US",
+          "score": 4.55651,
+          "ratings": 60939,
+          "name": "Hatch Sleep",
+          "bundle": "com.hatchbaby.Nightlight"
+        },
+        {
+          "country": "GB",
+          "score": 4.72549,
+          "ratings": 357,
+          "name": "Hatch Sleep",
+          "bundle": "com.hatchbaby.Nightlight"
+        },
+        {
+          "country": "CA",
+          "score": 4.49066,
+          "ratings": 2729,
+          "name": "Hatch Sleep",
+          "bundle": "com.hatchbaby.Nightlight"
+        },
+        {
+          "country": "DE",
+          "score": 4.08333,
+          "ratings": 12,
+          "name": "Hatch Sleep",
+          "bundle": "com.hatchbaby.Nightlight"
+        },
+        {
+          "country": "FR",
+          "score": 4,
+          "ratings": 17,
+          "name": "Hatch Sleep",
+          "bundle": "com.hatchbaby.Nightlight"
+        }
+      ]
+    },
+    "play_store": {
+      "score": 3.9357882,
+      "ratings": 24428,
+      "title": "Hatch Sleep"
+    }
+  },
+  "Cubo Ai": {
+    "line": "睡眠看护线",
+    "app_store": {
+      "weighted_score": 2.041235601374571,
+      "ratings": 291,
+      "countries": [
+        {
+          "country": "US",
+          "score": 2.17431,
+          "ratings": 109,
+          "name": "CuboAi Smart Baby Monitor",
+          "bundle": "com.getcubo.app"
+        },
+        {
+          "country": "GB",
+          "score": 1.73,
+          "ratings": 100,
+          "name": "CuboAi Smart Baby Monitor",
+          "bundle": "com.getcubo.app"
+        },
+        {
+          "country": "CA",
+          "score": 2.21951,
+          "ratings": 41,
+          "name": "CuboAi Smart Baby Monitor",
+          "bundle": "com.getcubo.app"
+        },
+        {
+          "country": "DE",
+          "score": 2.375,
+          "ratings": 8,
+          "name": "CuboAi Babyphone",
+          "bundle": "com.getcubo.app"
+        },
+        {
+          "country": "FR",
+          "score": 2.24242,
+          "ratings": 33,
+          "name": "Babyphone intelligent CuboAi",
+          "bundle": "com.getcubo.app"
+        }
+      ]
+    },
+    "play_store": {
+      "score": 1.5742574,
+      "ratings": 2932,
+      "title": "CuboAi Smart Baby Monitor"
+    }
+  },
+  "Happiest Baby/SNOO": {
+    "line": "睡眠看护线",
+    "app_store": {
+      "weighted_score": 3.9680585964592074,
+      "ratings": 5479,
+      "countries": [
+        {
+          "country": "US",
+          "score": 3.99306,
+          "ratings": 4900,
+          "name": "Happiest Baby, makers of SNOO",
+          "bundle": "com.happiestbaby.hbapp"
+        },
+        {
+          "country": "GB",
+          "score": 3.84277,
+          "ratings": 159,
+          "name": "Happiest Baby, makers of SNOO",
+          "bundle": "com.happiestbaby.hbapp"
+        },
+        {
+          "country": "CA",
+          "score": 3.7659,
+          "ratings": 393,
+          "name": "Happiest Baby, makers of SNOO",
+          "bundle": "com.happiestbaby.hbapp"
+        },
+        {
+          "country": "DE",
+          "score": 2.65,
+          "ratings": 20,
+          "name": "Happiest Baby, Macher von SNOO",
+          "bundle": "com.happiestbaby.hbapp"
+        },
+        {
+          "country": "FR",
+          "score": 4.42856,
+          "ratings": 7,
+          "name": "Happiest Baby, mère de SNOO",
+          "bundle": "com.happiestbaby.hbapp"
+        }
+      ]
+    },
+    "play_store": {
+      "score": 3.382114,
+      "ratings": 1707,
+      "title": "Happiest Baby, makers of SNOO"
+    }
+  }
+}

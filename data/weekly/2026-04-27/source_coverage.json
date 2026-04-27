@@ -1,0 +1,37 @@
+[
+  {
+    "brand": "Reddit",
+    "platform": "reddit",
+    "query": "Momcozy pump",
+    "status": "error",
+    "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Momcozy%20pump&sort=top&t=month&limit=20"
+  },
+  {
+    "brand": "Reddit",
+    "platform": "reddit",
+    "query": "Momcozy monitor",
+    "status": "error",
+    "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Momcozy%20monitor&sort=new&t=month&limit=20"
+  },
+  {
+    "brand": "Reddit",
+    "platform": "reddit",
+    "query": "Owlet dream sock",
+    "status": "error",
+    "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Owlet%20dream%20sock&sort=top&t=month&limit=20"
+  },
+  {
+    "brand": "Reddit",
+    "platform": "reddit",
+    "query": "Eufy baby monitor",
+    "status": "error",
+    "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Eufy%20baby%20monitor&sort=top&t=month&limit=20"
+  },
+  {
+    "brand": "Reddit",
+    "platform": "reddit",
+    "query": "Eufy baby monitor",
+    "status": "error",
+    "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Eufy%20baby%20monitor&sort=new&t=month&limit=20"
+  }
+]

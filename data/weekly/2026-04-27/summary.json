@@ -1,0 +1,117 @@
+{
+  "report_date": "2026-04-27",
+  "period": "2026.04.20–2026.04.26",
+  "momcozy_reviews": 8,
+  "competitor_reviews": 65,
+  "reddit_posts": 106,
+  "momcozy_app_store": {
+    "weighted_score": 4.195232682563339,
+    "ratings": 671,
+    "countries": [
+      {
+        "country": "US",
+        "score": 4.17905,
+        "ratings": 525,
+        "name": "Momcozy",
+        "bundle": "com.root.momcozy"
+      },
+      {
+        "country": "GB",
+        "score": 4.34999,
+        "ratings": 20,
+        "name": "Momcozy",
+        "bundle": "com.root.momcozy"
+      },
+      {
+        "country": "CA",
+        "score": 4.67647,
+        "ratings": 68,
+        "name": "Momcozy",
+        "bundle": "com.root.momcozy"
+      },
+      {
+        "country": "DE",
+        "score": 3.1875,
+        "ratings": 32,
+        "name": "Momcozy",
+        "bundle": "com.root.momcozy"
+      },
+      {
+        "country": "FR",
+        "score": 4.38462,
+        "ratings": 26,
+        "name": "Momcozy",
+        "bundle": "com.root.momcozy"
+      }
+    ]
+  },
+  "momcozy_play_store": {
+    "score": 3.32,
+    "ratings": 241,
+    "title": "Momcozy"
+  },
+  "top_issues": [
+    [
+      "设备连接",
+      3,
+      "app was working well on the first couple of days but now we can't even log in after reinstalling the app after the app wouldn't see the pumps. Needs fixing now. keeps saying can't connect to the internet but can send an "
+    ],
+    [
+      "核心功能体验",
+      6,
+      "Love this app for the pump. pumping sessions and measuring are inaccurate. hate it for the thermometer will not come out of Celsius into Fahrenheit it says it's Fahrenheit but it's showing the temp in Celsius"
+    ],
+    [
+      "App 稳定性",
+      2,
+      "imagine if the problems with streaming apps from 10-15 years ago were here today. like, w t f? I need stuff I spend lots of money on to work like it was made this decade"
+    ],
+    [
+      "硬件-软件联动",
+      6,
+      "Love this app for the pump. pumping sessions and measuring are inaccurate. hate it for the thermometer will not come out of Celsius into Fahrenheit it says it's Fahrenheit but it's showing the temp in Celsius"
+    ],
+    [
+      "UI / 交互",
+      1,
+      "will not go full screen on my Chromebook"
+    ]
+  ],
+  "coverage_gaps": [
+    {
+      "brand": "Reddit",
+      "platform": "reddit",
+      "query": "Momcozy pump",
+      "status": "error",
+      "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Momcozy%20pump&sort=top&t=month&limit=20"
+    },
+    {
+      "brand": "Reddit",
+      "platform": "reddit",
+      "query": "Momcozy monitor",
+      "status": "error",
+      "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Momcozy%20monitor&sort=new&t=month&limit=20"
+    },
+    {
+      "brand": "Reddit",
+      "platform": "reddit",
+      "query": "Owlet dream sock",
+      "status": "error",
+      "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Owlet%20dream%20sock&sort=top&t=month&limit=20"
+    },
+    {
+      "brand": "Reddit",
+      "platform": "reddit",
+      "query": "Eufy baby monitor",
+      "status": "error",
+      "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Eufy%20baby%20monitor&sort=top&t=month&limit=20"
+    },
+    {
+      "brand": "Reddit",
+      "platform": "reddit",
+      "query": "Eufy baby monitor",
+      "status": "error",
+      "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Eufy%20baby%20monitor&sort=new&t=month&limit=20"
+    }
+  ]
+}
