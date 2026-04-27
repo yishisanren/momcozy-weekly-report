@@ -15,10 +15,10 @@ Weekly automation expectations:
 - Keep local files internal; do not send markdown paths by default.
 
 Content sections expected in H5:
-1. Hero only shows report title/period/source notes and 2-3 key guidance cards; do not show low-value KPI cards like total comments/brand count on the title side.
+1. Hero only shows report title/period and a short subtitle; do not show the three top summary cards or low-value KPI cards.
 2. Momcozy rating section must appear first and must use the app's current public store rating, not the average of newly collected weekly reviews. App Store ratings should use live Apple lookup ratings for US/GB/CA/DE/FR, shown by country and optionally weighted by rating count; Play Store ratings should use `google_play_scraper.app(...)[score]` for the verified package.
-3. Momcozy user comments follow the rating section: show current-week review count, Chinese translation and original text side-by-side. Keep translations content-comparable to originals, collapse original-review line breaks, keep source/date on one line, and avoid overly narrow original/date columns.
-4. Momcozy attention dimensions: replace generic heatmap wording with “需要关注的几个维度” such as device connection, core logging/session flow, stability/performance, multi-user/account setup.
+3. Momcozy attention dimensions appear immediately after ratings as `02｜Momcozy 需要关注的几个维度`, before the review table.
+4. Momcozy user comments appear as `03｜Momcozy 用户评论内容`: show current-week review count, Chinese translation and original text side-by-side. Keep translations content-comparable to originals, collapse original-review line breaks, keep source/date on one line, and avoid overly narrow original/date columns.
 5. Competitor section: latest App Store / Play Store ratings must also use current public store ratings, not weekly review averages; keep weekly new-review content analysis separately.
 6. Reddit section: categorize posts by theme; for each post include topic view, original post quote, and 1-3 strongly related replies.
 7. Do not include data coverage/source gaps as an H5 report section. Mention meaningful missing data only in the Telegram delivery message.
