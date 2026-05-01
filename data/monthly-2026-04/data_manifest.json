@@ -1,6 +1,6 @@
 {
   "month": "2026-04",
-  "generated_at": "2026-05-01T02:26:50.040483+00:00",
+  "generated_at": "2026-05-01T02:39:16.609898+00:00",
   "data_dir": "/Users/zhangweiwei/momcozy-weekly-report/data/monthly-2026-04",
   "report_path": "/Users/zhangweiwei/momcozy-weekly-report/reports/monthly-2026-04/index.html",
   "countries": [
@@ -29,7 +29,7 @@
     },
     "ratings.json": {
       "path": "/Users/zhangweiwei/momcozy-weekly-report/data/monthly-2026-04/ratings.json",
-      "sha256": "5ec5e43a2f0cc0840cfa4a75b0355da996e670cb90e686a1f215ef9b0757abc6"
+      "sha256": "24b93a107b6eb07dbdb0949adf968ad570a109f124dad9e6f964f8787432b7fb"
     },
     "raw_app_reviews.json": {
       "path": "/Users/zhangweiwei/momcozy-weekly-report/data/monthly-2026-04/raw_app_reviews.json",
@@ -41,15 +41,15 @@
     },
     "reddit.json": {
       "path": "/Users/zhangweiwei/momcozy-weekly-report/data/monthly-2026-04/reddit.json",
-      "sha256": "437a0247655905f24a1c373008ff902d319ceefea562d782ed3aafbc8c4bc2ca"
+      "sha256": "bc9dc2296760219b10038004263cf37014963eeecb32b4decc5422d9001eb616"
     },
     "source_coverage.json": {
       "path": "/Users/zhangweiwei/momcozy-weekly-report/data/monthly-2026-04/source_coverage.json",
-      "sha256": "595cc26fe80b999e898f923305fe1920ee7953c770e22d770e49e3518eb3ca35"
+      "sha256": "9a1d0de5661e1bc8739df0b68b11e8db9d7e23dea5f3ed0c4f44e449626898ee"
     },
     "summary.json": {
       "path": "/Users/zhangweiwei/momcozy-weekly-report/data/monthly-2026-04/summary.json",
-      "sha256": "33b612890e4d488b2c0cc0eb4c1b573cc5c31bb500fc9e20d06821437c2325bd"
+      "sha256": "15305b0316bd22087ed5a2a5ef0edf1acc14fae782d14f2a794ef6e42666d2b1"
     }
   }
 }

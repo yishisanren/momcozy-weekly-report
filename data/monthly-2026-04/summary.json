@@ -3,7 +3,7 @@
   "period": "2026.04.01–2026.04.30",
   "momcozy_reviews": 23,
   "competitor_reviews": 482,
-  "reddit_posts": 159,
+  "reddit_posts": 120,
   "momcozy_app_store": {
     "weighted_score": 4.19173918879056,
     "ratings": 678,
@@ -286,7 +286,7 @@
       "platform": "reddit",
       "query": "Momcozy pump",
       "status": "error",
-      "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Momcozy%20pump&sort=top&t=month&limit=25"
+      "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Momcozy%20pump&sort=comments&t=month&limit=25"
     }
   ]
 }

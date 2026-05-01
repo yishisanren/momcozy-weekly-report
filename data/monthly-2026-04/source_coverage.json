@@ -207,34 +207,13 @@
     "platform": "reddit",
     "query": "Momcozy pump",
     "status": "error",
-    "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Momcozy%20pump&sort=top&t=month&limit=25"
+    "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Momcozy%20pump&sort=comments&t=month&limit=25"
   },
   {
     "brand": "Reddit",
     "platform": "reddit",
-    "query": "Elvie pump",
+    "query": "Nanit baby monitor",
     "status": "error",
-    "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Elvie%20pump&sort=top&t=month&limit=25"
-  },
-  {
-    "brand": "Reddit",
-    "platform": "reddit",
-    "query": "Willow pump",
-    "status": "error",
-    "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Willow%20pump&sort=top&t=month&limit=25"
-  },
-  {
-    "brand": "Reddit",
-    "platform": "reddit",
-    "query": "Medela pump",
-    "status": "error",
-    "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Medela%20pump&sort=top&t=month&limit=25"
-  },
-  {
-    "brand": "Reddit",
-    "platform": "reddit",
-    "query": "Cubo Ai baby monitor",
-    "status": "error",
-    "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Cubo%20Ai%20baby%20monitor&sort=new&t=month&limit=25"
+    "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Nanit%20baby%20monitor&sort=new&t=month&limit=25"
   }
 ]

@@ -275,13 +275,13 @@
   "Owlet": {
     "line": "睡眠看护线",
     "app_store": {
-      "weighted_score": 4.543440137298017,
-      "ratings": 39112,
+      "weighted_score": 4.543350207949662,
+      "ratings": 39096,
       "countries": [
         {
           "country": "US",
-          "score": 4.56102,
-          "ratings": 35956,
+          "score": 4.56093,
+          "ratings": 35940,
           "name": "Owlet Dream",
           "bundle": "com.owletcare.Sleep"
         },
@@ -324,13 +324,13 @@
   "Hatch": {
     "line": "睡眠看护线",
     "app_store": {
-      "weighted_score": 4.554053051024709,
-      "ratings": 64067,
+      "weighted_score": 4.5539675584898,
+      "ratings": 64071,
       "countries": [
         {
           "country": "US",
-          "score": 4.55612,
-          "ratings": 60950,
+          "score": 4.55603,
+          "ratings": 60954,
           "name": "Hatch Sleep",
           "bundle": "com.hatchbaby.Nightlight"
         },
