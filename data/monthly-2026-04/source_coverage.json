@@ -1,0 +1,240 @@
+[
+  {
+    "brand": "Momcozy",
+    "platform": "app_store",
+    "country": "US",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "Momcozy",
+    "platform": "app_store",
+    "country": "GB",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "Momcozy",
+    "platform": "app_store",
+    "country": "CA",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "Momcozy",
+    "platform": "app_store",
+    "country": "DE",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "Momcozy",
+    "platform": "app_store",
+    "country": "FR",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "Elvie",
+    "platform": "app_store",
+    "country": "GB",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "Elvie",
+    "platform": "app_store",
+    "country": "CA",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "Elvie",
+    "platform": "app_store",
+    "country": "DE",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "Elvie",
+    "platform": "app_store",
+    "country": "FR",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "Willow",
+    "platform": "app_store",
+    "country": "GB",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "Willow",
+    "platform": "app_store",
+    "country": "CA",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "Willow",
+    "platform": "app_store",
+    "country": "DE",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "Willow",
+    "platform": "app_store",
+    "country": "FR",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "Medela",
+    "platform": "app_store",
+    "country": "FR",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "Nanit",
+    "platform": "app_store",
+    "country": "DE",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "Nanit",
+    "platform": "app_store",
+    "country": "FR",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "Owlet",
+    "platform": "app_store",
+    "country": "GB",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "Owlet",
+    "platform": "app_store",
+    "country": "DE",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "Owlet",
+    "platform": "app_store",
+    "country": "FR",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "Hatch",
+    "platform": "app_store",
+    "country": "GB",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "Hatch",
+    "platform": "app_store",
+    "country": "DE",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "Hatch",
+    "platform": "app_store",
+    "country": "FR",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "Cubo Ai",
+    "platform": "app_store",
+    "country": "CA",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "Cubo Ai",
+    "platform": "app_store",
+    "country": "DE",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "Cubo Ai",
+    "platform": "app_store",
+    "country": "FR",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "SNOO",
+    "platform": "app_store",
+    "country": "GB",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "SNOO",
+    "platform": "app_store",
+    "country": "CA",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "SNOO",
+    "platform": "app_store",
+    "country": "DE",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "SNOO",
+    "platform": "app_store",
+    "country": "FR",
+    "status": "empty",
+    "reason": "RSS returned no review entries"
+  },
+  {
+    "brand": "Reddit",
+    "platform": "reddit",
+    "query": "Momcozy pump",
+    "status": "error",
+    "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Momcozy%20pump&sort=top&t=month&limit=25"
+  },
+  {
+    "brand": "Reddit",
+    "platform": "reddit",
+    "query": "Elvie pump",
+    "status": "error",
+    "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Elvie%20pump&sort=top&t=month&limit=25"
+  },
+  {
+    "brand": "Reddit",
+    "platform": "reddit",
+    "query": "Willow pump",
+    "status": "error",
+    "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Willow%20pump&sort=top&t=month&limit=25"
+  },
+  {
+    "brand": "Reddit",
+    "platform": "reddit",
+    "query": "Medela pump",
+    "status": "error",
+    "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Medela%20pump&sort=top&t=month&limit=25"
+  },
+  {
+    "brand": "Reddit",
+    "platform": "reddit",
+    "query": "Cubo Ai baby monitor",
+    "status": "error",
+    "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Cubo%20Ai%20baby%20monitor&sort=new&t=month&limit=25"
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "month": "2026-04",
+  "generated_at": "2026-05-01T02:26:50.040483+00:00",
+  "data_dir": "/Users/zhangweiwei/momcozy-weekly-report/data/monthly-2026-04",
+  "report_path": "/Users/zhangweiwei/momcozy-weekly-report/reports/monthly-2026-04/index.html",
+  "countries": [
+    "US",
+    "GB",
+    "CA",
+    "DE",
+    "FR"
+  ],
+  "brands": [
+    "Momcozy",
+    "Elvie",
+    "Willow",
+    "Medela",
+    "Perifit",
+    "Nanit",
+    "Owlet",
+    "Hatch",
+    "Cubo Ai",
+    "SNOO"
+  ],
+  "files": {
+    "app_identifiers.json": {
+      "path": "/Users/zhangweiwei/momcozy-weekly-report/data/monthly-2026-04/app_identifiers.json",
+      "sha256": "a07ddc316d249e6153dbe9f65825c2f1abc4ba21249dd7ab8bdb4f32a2f14c31"
+    },
+    "ratings.json": {
+      "path": "/Users/zhangweiwei/momcozy-weekly-report/data/monthly-2026-04/ratings.json",
+      "sha256": "5ec5e43a2f0cc0840cfa4a75b0355da996e670cb90e686a1f215ef9b0757abc6"
+    },
+    "raw_app_reviews.json": {
+      "path": "/Users/zhangweiwei/momcozy-weekly-report/data/monthly-2026-04/raw_app_reviews.json",
+      "sha256": "185d4c9aa0479aa352f7a03f6a5ac25dada8bce6e56e0b9f8847e7e7b595a89f"
+    },
+    "dedup_reviews.json": {
+      "path": "/Users/zhangweiwei/momcozy-weekly-report/data/monthly-2026-04/dedup_reviews.json",
+      "sha256": "d63378da8708ae442b678ac109637fc2a8f9400d527159b82b20325bcecfa459"
+    },
+    "reddit.json": {
+      "path": "/Users/zhangweiwei/momcozy-weekly-report/data/monthly-2026-04/reddit.json",
+      "sha256": "437a0247655905f24a1c373008ff902d319ceefea562d782ed3aafbc8c4bc2ca"
+    },
+    "source_coverage.json": {
+      "path": "/Users/zhangweiwei/momcozy-weekly-report/data/monthly-2026-04/source_coverage.json",
+      "sha256": "595cc26fe80b999e898f923305fe1920ee7953c770e22d770e49e3518eb3ca35"
+    },
+    "summary.json": {
+      "path": "/Users/zhangweiwei/momcozy-weekly-report/data/monthly-2026-04/summary.json",
+      "sha256": "33b612890e4d488b2c0cc0eb4c1b573cc5c31bb500fc9e20d06821437c2325bd"
+    }
+  }
+}

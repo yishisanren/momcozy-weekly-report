@@ -1,0 +1,292 @@
+{
+  "report_month": "2026-04",
+  "period": "2026.04.01–2026.04.30",
+  "momcozy_reviews": 23,
+  "competitor_reviews": 482,
+  "reddit_posts": 159,
+  "momcozy_app_store": {
+    "weighted_score": 4.19173918879056,
+    "ratings": 678,
+    "countries": [
+      {
+        "country": "US",
+        "score": 4.17547,
+        "ratings": 530,
+        "name": "Momcozy",
+        "bundle": "com.root.momcozy"
+      },
+      {
+        "country": "GB",
+        "score": 4.28571,
+        "ratings": 21,
+        "name": "Momcozy",
+        "bundle": "com.root.momcozy"
+      },
+      {
+        "country": "CA",
+        "score": 4.68116,
+        "ratings": 69,
+        "name": "Momcozy",
+        "bundle": "com.root.momcozy"
+      },
+      {
+        "country": "DE",
+        "score": 3.1875,
+        "ratings": 32,
+        "name": "Momcozy",
+        "bundle": "com.root.momcozy"
+      },
+      {
+        "country": "FR",
+        "score": 4.38462,
+        "ratings": 26,
+        "name": "Momcozy",
+        "bundle": "com.root.momcozy"
+      }
+    ]
+  },
+  "momcozy_play_store": {
+    "score": 3.34,
+    "ratings": 244,
+    "title": "Momcozy"
+  },
+  "top_issues": [
+    [
+      "连接/离线/配网",
+      7,
+      "This app’s camera function often disconnects and goes offline, not great for someone who relies on this feature as a part of the monitor product."
+    ],
+    [
+      "App 稳定性与可用性",
+      1,
+      "the app was working great when I first purchased the pump accuracy of fill was a little off but shimmying usually helped. Now my pumps won't connect and I have the air1. A little annoying to not be able to be able to control the pump through the app though the"
+    ],
+    [
+      "泵奶核心体验",
+      10,
+      "Works ok for controlling the Momcozy air, but only really on Manual mode s as the sensors are not sensitive enough to detect let downs effectively (Automatic relies on this detection) so the ‘smart’ features don’t actually work. The milk volume estimation is v"
+    ],
+    [
+      "睡眠看护可靠性",
+      5,
+      "camera - no night mode... this app is so bad we're considering getting a different camera for our nursery. it doesn't have a night theme, for an app that knows your going to be checking it.in the dark only having a white background sucks. it hurts your eyes at"
+    ],
+    [
+      "付费/订阅/服务",
+      1,
+      "imagine if the problems with streaming apps from 10-15 years ago were here today. like, w t f? I need stuff I spend lots of money on to work like it was made this decade"
+    ]
+  ],
+  "coverage_gaps": [
+    {
+      "brand": "Momcozy",
+      "platform": "app_store",
+      "country": "US",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "Momcozy",
+      "platform": "app_store",
+      "country": "GB",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "Momcozy",
+      "platform": "app_store",
+      "country": "CA",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "Momcozy",
+      "platform": "app_store",
+      "country": "DE",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "Momcozy",
+      "platform": "app_store",
+      "country": "FR",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "Elvie",
+      "platform": "app_store",
+      "country": "GB",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "Elvie",
+      "platform": "app_store",
+      "country": "CA",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "Elvie",
+      "platform": "app_store",
+      "country": "DE",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "Elvie",
+      "platform": "app_store",
+      "country": "FR",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "Willow",
+      "platform": "app_store",
+      "country": "GB",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "Willow",
+      "platform": "app_store",
+      "country": "CA",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "Willow",
+      "platform": "app_store",
+      "country": "DE",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "Willow",
+      "platform": "app_store",
+      "country": "FR",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "Medela",
+      "platform": "app_store",
+      "country": "FR",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "Nanit",
+      "platform": "app_store",
+      "country": "DE",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "Nanit",
+      "platform": "app_store",
+      "country": "FR",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "Owlet",
+      "platform": "app_store",
+      "country": "GB",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "Owlet",
+      "platform": "app_store",
+      "country": "DE",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "Owlet",
+      "platform": "app_store",
+      "country": "FR",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "Hatch",
+      "platform": "app_store",
+      "country": "GB",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "Hatch",
+      "platform": "app_store",
+      "country": "DE",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "Hatch",
+      "platform": "app_store",
+      "country": "FR",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "Cubo Ai",
+      "platform": "app_store",
+      "country": "CA",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "Cubo Ai",
+      "platform": "app_store",
+      "country": "DE",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "Cubo Ai",
+      "platform": "app_store",
+      "country": "FR",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "SNOO",
+      "platform": "app_store",
+      "country": "GB",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "SNOO",
+      "platform": "app_store",
+      "country": "CA",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "SNOO",
+      "platform": "app_store",
+      "country": "DE",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "SNOO",
+      "platform": "app_store",
+      "country": "FR",
+      "status": "empty",
+      "reason": "RSS returned no review entries"
+    },
+    {
+      "brand": "Reddit",
+      "platform": "reddit",
+      "query": "Momcozy pump",
+      "status": "error",
+      "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Momcozy%20pump&sort=top&t=month&limit=25"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "Momcozy": {
+    "line": "自家",
+    "app_store": {
+      "track_id": 6473000053,
+      "countries": [
+        "US",
+        "GB",
+        "CA",
+        "DE",
+        "FR"
+      ]
+    },
+    "play_store": {
+      "package": "com.lute.momcozy",
+      "countries": [
+        "US",
+        "GB",
+        "CA",
+        "DE",
+        "FR"
+      ]
+    }
+  },
+  "Elvie": {
+    "line": "哺乳线",
+    "app_store": {
+      "track_id": 1349263624,
+      "countries": [
+        "US",
+        "GB",
+        "CA",
+        "DE",
+        "FR"
+      ]
+    },
+    "play_store": {
+      "package": "com.chiaro.elviepump",
+      "countries": [
+        "US",
+        "GB",
+        "CA",
+        "DE",
+        "FR"
+      ]
+    }
+  },
+  "Willow": {
+    "line": "哺乳线",
+    "app_store": {
+      "track_id": 1579004074,
+      "countries": [
+        "US",
+        "GB",
+        "CA",
+        "DE",
+        "FR"
+      ]
+    },
+    "play_store": {
+      "package": "com.willow.go",
+      "countries": [
+        "US",
+        "GB",
+        "CA",
+        "DE",
+        "FR"
+      ]
+    }
+  },
+  "Medela": {
+    "line": "哺乳线",
+    "app_store": {
+      "track_id": 909275386,
+      "countries": [
+        "US",
+        "GB",
+        "CA",
+        "DE",
+        "FR"
+      ]
+    },
+    "play_store": {
+      "package": "com.medela.mymedela.live",
+      "countries": [
+        "US",
+        "GB",
+        "CA",
+        "DE",
+        "FR"
+      ]
+    }
+  },
+  "Perifit": {
+    "line": "孕产康线",
+    "app_store": {
+      "track_id": 1183437203,
+      "countries": [
+        "US",
+        "GB",
+        "CA",
+        "DE",
+        "FR"
+      ]
+    },
+    "play_store": {
+      "package": "starshipproduct.perifitmainapp",
+      "countries": [
+        "US",
+        "GB",
+        "CA",
+        "DE",
+        "FR"
+      ]
+    }
+  },
+  "Nanit": {
+    "line": "睡眠看护线",
+    "app_store": {
+      "track_id": 1137885597,
+      "countries": [
+        "US",
+        "GB",
+        "CA",
+        "DE",
+        "FR"
+      ]
+    },
+    "play_store": {
+      "package": "com.nanit.baby",
+      "countries": [
+        "US",
+        "GB",
+        "CA",
+        "DE",
+        "FR"
+      ]
+    }
+  },
+  "Owlet": {
+    "line": "睡眠看护线",
+    "app_store": {
+      "track_id": 1590590105,
+      "countries": [
+        "US",
+        "GB",
+        "CA",
+        "DE",
+        "FR"
+      ]
+    },
+    "play_store": {
+      "package": "com.owletcare.sleep",
+      "countries": [
+        "US",
+        "GB",
+        "CA",
+        "DE",
+        "FR"
+      ]
+    }
+  },
+  "Hatch": {
+    "line": "睡眠看护线",
+    "app_store": {
+      "track_id": 1158048301,
+      "countries": [
+        "US",
+        "GB",
+        "CA",
+        "DE",
+        "FR"
+      ]
+    },
+    "play_store": {
+      "package": "com.hatchbaby.rest",
+      "countries": [
+        "US",
+        "GB",
+        "CA",
+        "DE",
+        "FR"
+      ]
+    }
+  },
+  "Cubo Ai": {
+    "line": "睡眠看护线",
+    "app_store": {
+      "track_id": 1329291822,
+      "countries": [
+        "US",
+        "GB",
+        "CA",
+        "DE",
+        "FR"
+      ]
+    },
+    "play_store": {
+      "package": "com.getcubo.app",
+      "countries": [
+        "US",
+        "GB",
+        "CA",
+        "DE",
+        "FR"
+      ]
+    }
+  },
+  "SNOO": {
+    "line": "睡眠看护线",
+    "app_store": {
+      "track_id": 1562132169,
+      "countries": [
+        "US",
+        "GB",
+        "CA",
+        "DE",
+        "FR"
+      ]
+    },
+    "play_store": {
+      "package": "com.happiestbaby.hbi",
+      "countries": [
+        "US",
+        "GB",
+        "CA",
+        "DE",
+        "FR"
+      ]
+    }
+  }
+}
