@@ -208,7 +208,7 @@ def build(report_date: str | None = None) -> Path:
     <div class="grid">
       <div class="card"><div class="k">新增评论</div><div class="v">{len(reviews)}</div><p>本周采集到的 review-level 内容</p></div>
       <div class="card"><div class="k">Verified Purchase</div><div class="v">{verified}</div><p>已验证购买评论</p></div>
-      <div class="card"><div class="k">Canopy 请求</div><div class="v">{esc(summary.get('requests_used'))}/{esc(summary.get('max_requests'))}</div><p>触发 402 后停止扩展采集</p></div>
+      <div class="card"><div class="k">Canopy 成功请求</div><div class="v">{esc(summary.get('requests_used'))}/{esc(summary.get('max_requests'))}</div><p>402 表示 Canopy 计划/权限拦截，不代表本轮成功消耗</p></div>
       <div class="card"><div class="k">评分分布</div><div class="v">{', '.join(f'{k}★×{v}' for k,v in sorted(by_rating.items(), reverse=True)) or '—'}</div><p>本周新增评论评分</p></div>
       {model_cards}
     </div>
@@ -239,7 +239,7 @@ def build(report_date: str | None = None) -> Path:
 
   <section class="panel warn">
     <h2>06｜覆盖与异常</h2>
-    <p>本周已按配额保护策略处理：Canopy 返回 402 Payment Required 后，不继续循环重试、不扩大 ASIN、不翻页烧额度。</p>
+    <p>本周已按配额保护策略处理：Canopy 返回 402 Payment Required 时，按接口返回的计划/权限/额度信息记录原因；不继续循环重试、不扩大 ASIN、不翻页烧额度。</p>
     <ul>{coverage or '<li>无异常</li>'}</ul>
     <ul>{unlisted_html}</ul>
   </section>

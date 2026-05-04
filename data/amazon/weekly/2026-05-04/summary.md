@@ -13,11 +13,11 @@
 - M10、BM04M/BM05 暂未上架，不消耗 reviews 配额。
 
 ## 错误
-- M9 B0CGXMJF8S reviews: All Canopy keys unavailable: key#1:402, key#2:402
-- Air 1 B0DBYF4Z6L reviews: All Canopy keys unavailable: key#1:402, key#2:402
-- BM04 B0DR18KGBW reviews: All Canopy keys unavailable: key#1:402, key#2:402
-- BM08 B0GJ8HDZ29 reviews: All Canopy keys unavailable: key#1:402, key#2:402
-- T31 B0FXGTGQG7 reviews: All Canopy keys unavailable: key#1:402, key#2:402
-- Baby Sound Machine B099RSXLGH product: All Canopy keys unavailable: key#1:402, key#2:402
-- Baby Sound Machine B0D5CY5P9K product: All Canopy keys unavailable: key#1:402, key#2:402
-- Baby Sound Machine B0D5CYDF9T product: All Canopy keys unavailable: key#1:402, key#2:402
+- M9 B0CGXMJF8S reviews: All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests 
+- Air 1 B0DBYF4Z6L reviews: All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests 
+- BM04 B0DR18KGBW reviews: All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests 
+- BM08 B0GJ8HDZ29 reviews: All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests 
+- T31 B0FXGTGQG7 reviews: All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests 
+- Baby Sound Machine B099RSXLGH product: All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests 
+- Baby Sound Machine B0D5CY5P9K product: All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests 
+- Baby Sound Machine B0D5CYDF9T product: All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests 

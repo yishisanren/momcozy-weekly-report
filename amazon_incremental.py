@@ -104,6 +104,20 @@ def review_key(review: Dict[str, Any], asin: str) -> str:
     return hashlib.sha1((asin + "|" + raw).encode("utf-8", "ignore")).hexdigest()
 
 
+def canopy_error_message(response: requests.Response) -> str:
+    try:
+        payload = response.json()
+        errors = payload.get("errors") or []
+        if errors and isinstance(errors, list):
+            message = errors[0].get("message") or str(errors[0])
+        else:
+            message = payload.get("message") or response.text
+    except Exception:
+        message = response.text
+    message = " ".join(str(message).split())
+    return message[:180]
+
+
 def canopy_get(path: str, params: Dict[str, Any]) -> Dict[str, Any]:
     if not API_KEYS:
         raise RuntimeError("CANOPY_API_KEYS/CANOPY_API_KEY not found; dry-run only")
@@ -115,8 +129,9 @@ def canopy_get(path: str, params: Dict[str, Any]) -> Dict[str, Any]:
             try:
                 r = requests.get(f"{CANOPY_BASE}/{path}", headers=headers, params=params, timeout=TIMEOUT)
                 if r.status_code in {401, 402, 403, 429}:
-                    exhausted.append(f"key#{key_index}:{r.status_code}")
-                    last_error = requests.HTTPError(f"Canopy key#{key_index} returned {r.status_code}")
+                    detail = canopy_error_message(r)
+                    exhausted.append(f"key#{key_index}:{r.status_code} {detail}")
+                    last_error = requests.HTTPError(f"Canopy key#{key_index} returned {r.status_code}: {detail}")
                     break
                 r.raise_for_status()
                 return r.json()
@@ -125,7 +140,7 @@ def canopy_get(path: str, params: Dict[str, Any]) -> Dict[str, Any]:
                 if attempt == 0:
                     time.sleep(2)
     if exhausted:
-        raise RuntimeError("All Canopy keys unavailable: " + ", ".join(exhausted))
+        raise RuntimeError("All Canopy keys unavailable: " + " | ".join(exhausted))
     raise RuntimeError(str(last_error))
 
 
