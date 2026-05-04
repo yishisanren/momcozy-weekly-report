@@ -1,0 +1,72 @@
+{
+  "Momcozy": {
+    "app_store_track_id": 6473000053,
+    "play_store_package": "com.lute.momcozy",
+    "line": "自家"
+  },
+  "Elvie": {
+    "app_store_track_id": 1349263624,
+    "play_store_package": "com.chiaro.elviepump",
+    "line": "哺乳线"
+  },
+  "Willow": {
+    "app_store_track_id": 1579004074,
+    "play_store_package": "com.willow.go",
+    "line": "哺乳线"
+  },
+  "Medela": {
+    "app_store_track_id": 909275386,
+    "play_store_package": "com.medela.mymedela.live",
+    "line": "哺乳线"
+  },
+  "Eufy Baby": {
+    "app_store_track_id": 1544694845,
+    "play_store_package": "com.oceanwing.care.cam",
+    "line": "哺乳线"
+  },
+  "Perifit": {
+    "app_store_track_id": 1183437203,
+    "play_store_package": "starshipproduct.perifitmainapp",
+    "line": "孕产康线"
+  },
+  "Emy": {
+    "app_store_track_id": 1252934443,
+    "play_store_package": "com.fizimed.emy.app",
+    "line": "孕产康线"
+  },
+  "Clue": {
+    "app_store_track_id": 657189652,
+    "play_store_package": "com.clue.android",
+    "line": "孕产康线"
+  },
+  "Ovia": {
+    "app_store_track_id": 570244389,
+    "play_store_package": "com.ovuline.fertility",
+    "line": "孕产康线"
+  },
+  "Nanit": {
+    "app_store_track_id": 1137885597,
+    "play_store_package": "com.nanit.baby",
+    "line": "睡眠看护线"
+  },
+  "Owlet": {
+    "app_store_track_id": 1590590105,
+    "play_store_package": "com.owletcare.sleep",
+    "line": "睡眠看护线"
+  },
+  "Hatch": {
+    "app_store_track_id": 1158048301,
+    "play_store_package": "com.hatchbaby.rest",
+    "line": "睡眠看护线"
+  },
+  "Cubo Ai": {
+    "app_store_track_id": 1329291822,
+    "play_store_package": "com.getcubo.app",
+    "line": "睡眠看护线"
+  },
+  "Happiest Baby/SNOO": {
+    "app_store_track_id": 1562132169,
+    "play_store_package": "com.happiestbaby.hbi",
+    "line": "睡眠看护线"
+  }
+}
