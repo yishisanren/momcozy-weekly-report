@@ -2,8 +2,8 @@
   "report_date": "2026-05-04",
   "period": "2026.04.27–2026.05.03",
   "momcozy_reviews": 3,
-  "competitor_reviews": 154,
-  "reddit_posts": 105,
+  "competitor_reviews": 155,
+  "reddit_posts": 112,
   "momcozy_app_store": {
     "weighted_score": 4.19173918879056,
     "ratings": 678,
@@ -46,7 +46,7 @@
     ]
   },
   "momcozy_play_store": {
-    "score": 3.38,
+    "score": 3.4,
     "ratings": 245,
     "title": "Momcozy"
   },
@@ -57,34 +57,5 @@
       "Every time I open the app I get a white screen and have to quit and go back in."
     ]
   ],
-  "coverage_gaps": [
-    {
-      "brand": "Willow",
-      "platform": "app_store",
-      "country": "FR",
-      "status": "error",
-      "reason": "502 Server Error: Bad Gateway for url: https://itunes.apple.com/rss/customerreviews/page=1/id=1579004074/sortby=mostrecent/json?l=en&cc=fr"
-    },
-    {
-      "brand": "Reddit",
-      "platform": "reddit",
-      "query": "Momcozy monitor",
-      "status": "error",
-      "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Momcozy%20monitor&sort=top&t=month&limit=20"
-    },
-    {
-      "brand": "Reddit",
-      "platform": "reddit",
-      "query": "Willow pump",
-      "status": "error",
-      "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Willow%20pump&sort=new&t=month&limit=20"
-    },
-    {
-      "brand": "Reddit",
-      "platform": "reddit",
-      "query": "SNOO app",
-      "status": "error",
-      "reason": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=SNOO%20app&sort=top&t=month&limit=20"
-    }
-  ]
+  "coverage_gaps": []
 }

@@ -43,7 +43,7 @@
       ]
     },
     "play_store": {
-      "score": 3.38,
+      "score": 3.4,
       "ratings": 245,
       "title": "Momcozy"
     }
@@ -317,13 +317,13 @@
   "Clue": {
     "line": "孕产康线",
     "app_store": {
-      "weighted_score": 4.718826682575659,
-      "ratings": 825948,
+      "weighted_score": 4.718826596899525,
+      "ratings": 825938,
       "countries": [
         {
           "country": "US",
           "score": 4.76171,
-          "ratings": 393274,
+          "ratings": 393260,
           "name": "Clue Period & Cycle Tracker",
           "bundle": "com.helloclue.clue"
         },
@@ -336,8 +336,8 @@
         },
         {
           "country": "CA",
-          "score": 4.69814,
-          "ratings": 61231,
+          "score": 4.69815,
+          "ratings": 61235,
           "name": "Clue Period & Cycle Tracker",
           "bundle": "com.helloclue.clue"
         },
@@ -394,13 +394,13 @@
   "Nanit": {
     "line": "睡眠看护线",
     "app_store": {
-      "weighted_score": 4.660109396513069,
-      "ratings": 37913,
+      "weighted_score": 4.660044112805361,
+      "ratings": 37906,
       "countries": [
         {
           "country": "US",
-          "score": 4.67265,
-          "ratings": 34105,
+          "score": 4.67258,
+          "ratings": 34098,
           "name": "Nanit",
           "bundle": "com.udisense.nanit"
         },
@@ -583,20 +583,20 @@
     },
     "play_store": {
       "score": 1.5742574,
-      "ratings": 2942,
+      "ratings": 2943,
       "title": "CuboAi Smart Baby Monitor"
     }
   },
   "Happiest Baby/SNOO": {
     "line": "睡眠看护线",
     "app_store": {
-      "weighted_score": 3.9705627234738365,
-      "ratings": 5504,
+      "weighted_score": 3.9711314672235334,
+      "ratings": 5507,
       "countries": [
         {
           "country": "US",
-          "score": 3.99634,
-          "ratings": 4924,
+          "score": 3.99696,
+          "ratings": 4927,
           "name": "Happiest Baby, makers of SNOO",
           "bundle": "com.happiestbaby.hbapp"
         },
