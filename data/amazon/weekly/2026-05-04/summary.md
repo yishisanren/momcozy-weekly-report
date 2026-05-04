@@ -2,7 +2,7 @@
 
 - Canopy 请求预算：8
 - 实际请求数：2
-- 新增评论数：20
+- 新增评论数：10
 - 商品摘要数：0
 - Dry run：否
 
@@ -13,11 +13,11 @@
 - M10、BM04M/BM05 暂未上架，不消耗 reviews 配额。
 
 ## 错误
-- M9 B0CGXMJF8S reviews: 402 Client Error: Payment Required for url: https://rest.canopyapi.co/api/amazon/product/reviews?asin=B0CGXMJF8S&domain=US&page=1
-- Air 1 B0DBYF4Z6L reviews: 402 Client Error: Payment Required for url: https://rest.canopyapi.co/api/amazon/product/reviews?asin=B0DBYF4Z6L&domain=US&page=1
-- BM04 B0DR18KGBW reviews: 402 Client Error: Payment Required for url: https://rest.canopyapi.co/api/amazon/product/reviews?asin=B0DR18KGBW&domain=US&page=1
-- BM08 B0GJ8HDZ29 reviews: 402 Client Error: Payment Required for url: https://rest.canopyapi.co/api/amazon/product/reviews?asin=B0GJ8HDZ29&domain=US&page=1
-- T31 B0FXGTGQG7 reviews: 402 Client Error: Payment Required for url: https://rest.canopyapi.co/api/amazon/product/reviews?asin=B0FXGTGQG7&domain=US&page=1
-- Baby Sound Machine B099RSXLGH product: 402 Client Error: Payment Required for url: https://rest.canopyapi.co/api/amazon/product?asin=B099RSXLGH&domain=US
-- Baby Sound Machine B0D5CY5P9K product: 402 Client Error: Payment Required for url: https://rest.canopyapi.co/api/amazon/product?asin=B0D5CY5P9K&domain=US
-- Baby Sound Machine B0D5CYDF9T product: 402 Client Error: Payment Required for url: https://rest.canopyapi.co/api/amazon/product?asin=B0D5CYDF9T&domain=US
+- M9 B0CGXMJF8S reviews: All Canopy keys unavailable: key#1:402, key#2:402
+- Air 1 B0DBYF4Z6L reviews: All Canopy keys unavailable: key#1:402, key#2:402
+- BM04 B0DR18KGBW reviews: All Canopy keys unavailable: key#1:402, key#2:402
+- BM08 B0GJ8HDZ29 reviews: All Canopy keys unavailable: key#1:402, key#2:402
+- T31 B0FXGTGQG7 reviews: All Canopy keys unavailable: key#1:402, key#2:402
+- Baby Sound Machine B099RSXLGH product: All Canopy keys unavailable: key#1:402, key#2:402
+- Baby Sound Machine B0D5CY5P9K product: All Canopy keys unavailable: key#1:402, key#2:402
+- Baby Sound Machine B0D5CYDF9T product: All Canopy keys unavailable: key#1:402, key#2:402

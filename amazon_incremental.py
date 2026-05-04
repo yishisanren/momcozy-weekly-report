@@ -45,7 +45,24 @@ CANOPY_BASE = "https://rest.canopyapi.co/api/amazon"
 DOMAIN = os.getenv("AMAZON_DOMAIN", "US")
 MAX_REQUESTS = int(os.getenv("AMAZON_CANOPY_WEEKLY_BUDGET", "8"))
 TIMEOUT = int(os.getenv("AMAZON_CANOPY_TIMEOUT", "55"))
-API_KEY = os.getenv("CANOPY_API_KEY") or os.getenv("CANOPY_APIKEY") or os.getenv("CANOPY_API_KEY_US")
+
+def parse_api_keys() -> list[str]:
+    raw_values = [
+        os.getenv("CANOPY_API_KEYS", ""),
+        os.getenv("CANOPY_API_KEY", ""),
+        os.getenv("CANOPY_APIKEY", ""),
+        os.getenv("CANOPY_API_KEY_US", ""),
+    ]
+    keys: list[str] = []
+    for raw in raw_values:
+        for item in raw.replace(";", ",").split(","):
+            key = item.strip()
+            if key and key not in keys:
+                keys.append(key)
+    return keys
+
+
+API_KEYS = parse_api_keys()
 
 # User-confirmed whitelist. Keep this as the source of truth for the cron job.
 ASINS = [
@@ -88,19 +105,27 @@ def review_key(review: Dict[str, Any], asin: str) -> str:
 
 
 def canopy_get(path: str, params: Dict[str, Any]) -> Dict[str, Any]:
-    if not API_KEY:
-        raise RuntimeError("CANOPY_API_KEY not found; dry-run only")
-    headers = {"API-KEY": API_KEY, "User-Agent": "Hermes Momcozy Amazon incremental collector"}
+    if not API_KEYS:
+        raise RuntimeError("CANOPY_API_KEYS/CANOPY_API_KEY not found; dry-run only")
     last_error = None
-    for attempt in range(2):
-        try:
-            r = requests.get(f"{CANOPY_BASE}/{path}", headers=headers, params=params, timeout=TIMEOUT)
-            r.raise_for_status()
-            return r.json()
-        except Exception as e:  # bounded retry only
-            last_error = e
-            if attempt == 0:
-                time.sleep(2)
+    exhausted = []
+    for key_index, api_key in enumerate(API_KEYS, start=1):
+        headers = {"API-KEY": api_key, "User-Agent": "Hermes Momcozy Amazon incremental collector"}
+        for attempt in range(2):
+            try:
+                r = requests.get(f"{CANOPY_BASE}/{path}", headers=headers, params=params, timeout=TIMEOUT)
+                if r.status_code in {401, 402, 403, 429}:
+                    exhausted.append(f"key#{key_index}:{r.status_code}")
+                    last_error = requests.HTTPError(f"Canopy key#{key_index} returned {r.status_code}")
+                    break
+                r.raise_for_status()
+                return r.json()
+            except Exception as e:  # bounded retry only
+                last_error = e
+                if attempt == 0:
+                    time.sleep(2)
+    if exhausted:
+        raise RuntimeError("All Canopy keys unavailable: " + ", ".join(exhausted))
     raise RuntimeError(str(last_error))
 
 
@@ -152,7 +177,7 @@ def main() -> int:
     errors: List[Dict[str, str]] = []
     plan = []
 
-    if not API_KEY:
+    if not API_KEYS:
         plan = [{**item, "planned_action": "dry_run_no_key_no_canopy_request"} for item in ASINS]
     else:
         for item in ASINS:
@@ -215,7 +240,8 @@ def main() -> int:
         "product_summary_count": len(product_summaries),
         "errors": errors,
         "unlisted": UNLISTED,
-        "dry_run": not bool(API_KEY),
+        "dry_run": not bool(API_KEYS),
+        "canopy_key_count": len(API_KEYS),
     }
     state.setdefault("runs", []).append(run)
     state["runs"] = state["runs"][-30:]
@@ -232,7 +258,7 @@ def main() -> int:
         f"- 实际请求数：{requests_used}",
         f"- 新增评论数：{len(new_reviews)}",
         f"- 商品摘要数：{len(product_summaries)}",
-        f"- Dry run：{'是（未检测到 CANOPY_API_KEY）' if not API_KEY else '否'}",
+        f"- Dry run：{'是（未检测到 CANOPY_API_KEYS/CANOPY_API_KEY）' if not API_KEYS else '否'}",
         "",
         "## 新策略",
         "- 固定 ASIN 白名单，不用 Canopy 做搜索。",

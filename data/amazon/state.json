@@ -1,0 +1,279 @@
+{
+  "asins": {
+    "B0F7XTHCNY": {
+      "seen_review_keys": [
+        "b675391ef1a322c30d59077f3cf8f2fe13283003",
+        "2980cf880c696de4a83bd280409d9d8df4dfac33",
+        "40a9f5dc38c51016babe371f6a76ee5c1a01c073",
+        "e476c36b360e5a13fd488416939079638f4415e5",
+        "ad57ad48dd54405f8b63b8c31515408960604cd0",
+        "1a5297b64706da1498f56b521530e23ad48f04dd",
+        "ed6b836d3b6d65ad08c3c7d4e1b25fec3dc02f51",
+        "d1d2ad9b8fdd0f7a8b9e33f40d170a02867abf49",
+        "21a623b7147dac8d9d73a6a0e0b9267ac880888d",
+        "353cc27d03b9779375e539d3d77d85ba52d3b3e3",
+        "cee300f362afbc76c2b9ea34e3514b4a16307e23",
+        "81a38ce35df6d18e7ba0c68020d0f83c4b5e5bba",
+        "333ccffda5e9afa3e147aff421b27d8a62c41f9e",
+        "d5e560d036f23a403d1dcfd16cd91a9488825032",
+        "d9e96f1c596a95593b7e99bc067b3b17c50566b4",
+        "823479f4f5e2c6e029b86ce21b29ddfff2a6af6b",
+        "52941f41e37f9c119308b9c36b96c542a757aa99",
+        "77b3abe4122a9ec23422beb00184eb751072631a",
+        "18b9d1bdada6cf2e201162f584b54d25a9e2db08",
+        "4719a48cfbc1520d9c22f394d1cbdea626b5173f"
+      ],
+      "last_reviews_checked_at": "2026-05-04T03:35:30.890707+00:00",
+      "last_new_review_at": "2026-05-04T03:04:48.106406+00:00"
+    },
+    "B0CGXMJF8S": {
+      "seen_review_keys": [
+        "fa41f0ab6baf17e5a398465168b77b2a3d7ee0c3",
+        "91258d6b0e2dc2304720be79be808b5ccc924264",
+        "354eded497d8280f2c00cd8ffe36c9b7cd80ac94",
+        "33b64f57c7b781720abe780c6ba720f806a84a71",
+        "0f6c60cab7bcffbb4672727a5d8c55dd5ad9c624",
+        "c69f849109b2d863f6a670368dfc8de9b8742806",
+        "f8ad810b070c144f5a1df8b66f2f524065fe1067",
+        "3a0db374a6107ed037ce2746f18bb9ea42d9b9c3",
+        "cf68090163e9bb1cfc88dd7c7a2b0991f2d13c14",
+        "3b64254cc5ebfeb4866391cdb2cdfab44211a16d"
+      ],
+      "last_reviews_checked_at": "2026-05-04T03:35:53.940660+00:00",
+      "last_new_review_at": "2026-05-04T03:35:53.940660+00:00"
+    },
+    "B0DBYF4Z6L": {
+      "seen_review_keys": []
+    },
+    "B0DR18KGBW": {
+      "seen_review_keys": []
+    },
+    "B0GJ8HDZ29": {
+      "seen_review_keys": []
+    },
+    "B0FXGTGQG7": {
+      "seen_review_keys": []
+    },
+    "B099RSXLGH": {
+      "seen_review_keys": []
+    },
+    "B0D5CY5P9K": {
+      "seen_review_keys": []
+    },
+    "B0D5CYDF9T": {
+      "seen_review_keys": []
+    }
+  },
+  "runs": [
+    {
+      "date": "2026-05-04",
+      "domain": "US",
+      "max_requests": 8,
+      "requests_used": 0,
+      "new_review_count": 0,
+      "product_summary_count": 0,
+      "errors": [],
+      "unlisted": [
+        {
+          "line": "吸奶器",
+          "model": "M10",
+          "status": "暂时未上架"
+        },
+        {
+          "line": "睡眠线",
+          "model": "BM04M/BM05",
+          "status": "暂时未上架"
+        }
+      ],
+      "dry_run": true
+    },
+    {
+      "date": "2026-05-04",
+      "domain": "US",
+      "max_requests": 8,
+      "requests_used": 0,
+      "new_review_count": 0,
+      "product_summary_count": 0,
+      "errors": [],
+      "unlisted": [
+        {
+          "line": "吸奶器",
+          "model": "M10",
+          "status": "暂时未上架"
+        },
+        {
+          "line": "睡眠线",
+          "model": "BM04M/BM05",
+          "status": "暂时未上架"
+        }
+      ],
+      "dry_run": true
+    },
+    {
+      "date": "2026-05-04",
+      "domain": "US",
+      "max_requests": 8,
+      "requests_used": 2,
+      "new_review_count": 20,
+      "product_summary_count": 0,
+      "errors": [
+        {
+          "asin": "B0CGXMJF8S",
+          "model": "M9",
+          "stage": "reviews",
+          "error": "402 Client Error: Payment Required for url: https://rest.canopyapi.co/api/amazon/product/reviews?asin=B0CGXMJF8S&domain=US&page=1"
+        },
+        {
+          "asin": "B0DBYF4Z6L",
+          "model": "Air 1",
+          "stage": "reviews",
+          "error": "402 Client Error: Payment Required for url: https://rest.canopyapi.co/api/amazon/product/reviews?asin=B0DBYF4Z6L&domain=US&page=1"
+        },
+        {
+          "asin": "B0DR18KGBW",
+          "model": "BM04",
+          "stage": "reviews",
+          "error": "402 Client Error: Payment Required for url: https://rest.canopyapi.co/api/amazon/product/reviews?asin=B0DR18KGBW&domain=US&page=1"
+        },
+        {
+          "asin": "B0GJ8HDZ29",
+          "model": "BM08",
+          "stage": "reviews",
+          "error": "402 Client Error: Payment Required for url: https://rest.canopyapi.co/api/amazon/product/reviews?asin=B0GJ8HDZ29&domain=US&page=1"
+        },
+        {
+          "asin": "B0FXGTGQG7",
+          "model": "T31",
+          "stage": "reviews",
+          "error": "402 Client Error: Payment Required for url: https://rest.canopyapi.co/api/amazon/product/reviews?asin=B0FXGTGQG7&domain=US&page=1"
+        },
+        {
+          "asin": "B099RSXLGH",
+          "model": "Baby Sound Machine",
+          "stage": "product",
+          "error": "402 Client Error: Payment Required for url: https://rest.canopyapi.co/api/amazon/product?asin=B099RSXLGH&domain=US"
+        },
+        {
+          "asin": "B0D5CY5P9K",
+          "model": "Baby Sound Machine",
+          "stage": "product",
+          "error": "402 Client Error: Payment Required for url: https://rest.canopyapi.co/api/amazon/product?asin=B0D5CY5P9K&domain=US"
+        },
+        {
+          "asin": "B0D5CYDF9T",
+          "model": "Baby Sound Machine",
+          "stage": "product",
+          "error": "402 Client Error: Payment Required for url: https://rest.canopyapi.co/api/amazon/product?asin=B0D5CYDF9T&domain=US"
+        }
+      ],
+      "unlisted": [
+        {
+          "line": "吸奶器",
+          "model": "M10",
+          "status": "暂时未上架"
+        },
+        {
+          "line": "睡眠线",
+          "model": "BM04M/BM05",
+          "status": "暂时未上架"
+        }
+      ],
+      "dry_run": false
+    },
+    {
+      "date": "2026-05-04",
+      "domain": "US",
+      "max_requests": 1,
+      "requests_used": 1,
+      "new_review_count": 0,
+      "product_summary_count": 0,
+      "errors": [],
+      "unlisted": [
+        {
+          "line": "吸奶器",
+          "model": "M10",
+          "status": "暂时未上架"
+        },
+        {
+          "line": "睡眠线",
+          "model": "BM04M/BM05",
+          "status": "暂时未上架"
+        }
+      ],
+      "dry_run": false,
+      "canopy_key_count": 2
+    },
+    {
+      "date": "2026-05-04",
+      "domain": "US",
+      "max_requests": 8,
+      "requests_used": 2,
+      "new_review_count": 10,
+      "product_summary_count": 0,
+      "errors": [
+        {
+          "asin": "B0CGXMJF8S",
+          "model": "M9",
+          "stage": "reviews",
+          "error": "All Canopy keys unavailable: key#1:402, key#2:402"
+        },
+        {
+          "asin": "B0DBYF4Z6L",
+          "model": "Air 1",
+          "stage": "reviews",
+          "error": "All Canopy keys unavailable: key#1:402, key#2:402"
+        },
+        {
+          "asin": "B0DR18KGBW",
+          "model": "BM04",
+          "stage": "reviews",
+          "error": "All Canopy keys unavailable: key#1:402, key#2:402"
+        },
+        {
+          "asin": "B0GJ8HDZ29",
+          "model": "BM08",
+          "stage": "reviews",
+          "error": "All Canopy keys unavailable: key#1:402, key#2:402"
+        },
+        {
+          "asin": "B0FXGTGQG7",
+          "model": "T31",
+          "stage": "reviews",
+          "error": "All Canopy keys unavailable: key#1:402, key#2:402"
+        },
+        {
+          "asin": "B099RSXLGH",
+          "model": "Baby Sound Machine",
+          "stage": "product",
+          "error": "All Canopy keys unavailable: key#1:402, key#2:402"
+        },
+        {
+          "asin": "B0D5CY5P9K",
+          "model": "Baby Sound Machine",
+          "stage": "product",
+          "error": "All Canopy keys unavailable: key#1:402, key#2:402"
+        },
+        {
+          "asin": "B0D5CYDF9T",
+          "model": "Baby Sound Machine",
+          "stage": "product",
+          "error": "All Canopy keys unavailable: key#1:402, key#2:402"
+        }
+      ],
+      "unlisted": [
+        {
+          "line": "吸奶器",
+          "model": "M10",
+          "status": "暂时未上架"
+        },
+        {
+          "line": "睡眠线",
+          "model": "BM04M/BM05",
+          "status": "暂时未上架"
+        }
+      ],
+      "dry_run": false,
+      "canopy_key_count": 2
+    }
+  ]
+}
