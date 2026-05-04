@@ -39,6 +39,68 @@ def theme_tags(text: str) -> list[str]:
     return tags or ["综合正向体验"]
 
 
+def rating_int(review: dict) -> int:
+    try:
+        return int(float(review.get("rating") or 0))
+    except (TypeError, ValueError):
+        return 0
+
+
+def load_translations(weekly_dir: Path) -> dict[str, dict[str, str]]:
+    path = weekly_dir / "review_translations.json"
+    if not path.exists():
+        return {}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if isinstance(data, list):
+        return {str(item.get("review_key")): item for item in data if item.get("review_key")}
+    if isinstance(data, dict):
+        return {str(k): v for k, v in data.items() if isinstance(v, dict)}
+    return {}
+
+
+def zh_for(review: dict, translations: dict[str, dict[str, str]], field: str) -> str:
+    item = translations.get(str(review.get("review_key")), {})
+    value = item.get(field) or item.get(f"{field}_zh")
+    if value:
+        return value
+    return "（待翻译：cron 需在 build 前写入 review_translations.json）"
+
+
+def rating_summary(rating: int, items: list[dict]) -> str:
+    if not items:
+        return f"<article class='rating-card'><h3>{rating} 星</h3><p class='muted'>本周无新增。</p></article>"
+    tags = Counter(tag for r in items for tag in theme_tags((r.get("title") or "") + " " + (r.get("body") or "")))
+    verified_count = sum(1 for r in items if r.get("verified_purchase"))
+    themes = "、".join(f"{tag}（{count}）" for tag, count in tags.most_common(5))
+    sample_titles = "；".join(text_snippet(r.get("title") or "无标题", 44) for r in items[:3])
+    return f"""
+    <article class='rating-card'>
+      <h3>{rating} 星｜{len(items)} 条</h3>
+      <p>Verified Purchase：{verified_count}/{len(items)}。主要主题：{esc(themes or '综合体验')}。</p>
+      <p class='muted'>代表标题：{esc(sample_titles)}</p>
+    </article>
+    """
+
+
+def review_detail_rows(items: list[dict], translations: dict[str, dict[str, str]]) -> str:
+    if not items:
+        return "<p class='muted'>本周无新增。</p>"
+    rows = []
+    for r in items:
+        rows.append(f"""
+        <article class="review">
+          <div class="review-head"><span>{esc(r.get('model'))}</span><span>{esc(r.get('asin'))}</span><span>{'★' * rating_int(r)}</span><span>{'Verified' if r.get('verified_purchase') else 'Unverified'}</span></div>
+          <h3>{esc(r.get('title') or '无标题')}</h3>
+          <div class='quote-grid'>
+            <div><b>中文翻译</b><p><em>{esc(zh_for(r, translations, 'title'))}</em></p><p>{esc(zh_for(r, translations, 'body'))}</p></div>
+            <div><b>英文原文</b><p><em>{esc(r.get('title') or '无标题')}</em></p><p>{esc(text_snippet(r.get('body') or '', 1200))}</p></div>
+          </div>
+          <div class="meta">来源：{esc(r.get('source'))}｜评论时间：{esc(r.get('date') or '—')}｜Helpful：{esc(r.get('helpful_votes'))}｜采集：{esc(r.get('collected_at'))}</div>
+        </article>
+        """)
+    return "".join(rows)
+
+
 def build(report_date: str | None = None) -> Path:
     report_date = report_date or date.today().isoformat()
     weekly_dir = ROOT / "data" / "amazon" / "weekly" / report_date
@@ -53,11 +115,32 @@ def build(report_date: str | None = None) -> Path:
     for r in reviews:
         grouped[r.get("model", "未知")].append(r)
 
-    high_signal = sorted(
-        reviews,
-        key=lambda r: (r.get("helpful_votes") or 0, len(r.get("body") or "")),
-        reverse=True,
-    )[:8]
+    translations = load_translations(weekly_dir)
+    by_star: dict[int, list[dict]] = defaultdict(list)
+    for r in reviews:
+        by_star[rating_int(r)].append(r)
+
+    positive_count = len(by_star.get(5, [])) + len(by_star.get(4, []))
+    low_count = len(by_star.get(1, [])) + len(by_star.get(2, []))
+    mid_count = len(by_star.get(3, []))
+    conclusion_items = [
+        f"本周新增 {len(reviews)} 条 Amazon 评论；评分结构为 {', '.join(f'{k}★×{v}' for k, v in sorted(by_rating.items(), reverse=True)) or '—'}。",
+    ]
+    if positive_count:
+        conclusion_items.append(f"4–5 星共 {positive_count} 条，正向反馈以 {', '.join(tag for tag, _ in tag_counter.most_common(3)) or '综合体验'} 为主。")
+    if mid_count:
+        conclusion_items.append(f"3 星共 {mid_count} 条，作为中性/混合体验单独观察。")
+    if low_count:
+        conclusion_items.append(f"1–2 星共 {low_count} 条，已在下方逐条列出英文原文和中文翻译，优先进入问题闭环。")
+    else:
+        conclusion_items.append("本周没有新增 1–2 星低分评论。")
+
+    rating_summary_rows = "".join(rating_summary(star, by_star.get(star, [])) for star in [5, 4])
+    mid_rows = review_detail_rows(by_star.get(3, []), translations) if mid_count else "<p class='muted'>本周无 3 星新增评论。</p>"
+    low_rows = "".join(
+        f"<h3>{star} 星｜{len(by_star.get(star, []))} 条</h3>" + review_detail_rows(by_star.get(star, []), translations)
+        for star in [2, 1]
+    )
 
     errors = summary.get("errors", [])
     unlisted = summary.get("unlisted", [])
@@ -71,18 +154,6 @@ def build(report_date: str | None = None) -> Path:
 
     tag_items = "".join(
         f"<li><span>{esc(tag)}</span><b>{count}</b></li>" for tag, count in tag_counter.most_common()
-    )
-
-    review_rows = "".join(
-        f"""
-        <article class="review">
-          <div class="review-head"><span>{esc(r.get('model'))}</span><span>{esc(r.get('asin'))}</span><span>{'★' * int(r.get('rating') or 0)}</span><span>{'Verified' if r.get('verified_purchase') else 'Unverified'}</span></div>
-          <h3>{esc(r.get('title'))}</h3>
-          <p>{esc(text_snippet(r.get('body') or ''))}</p>
-          <div class="meta">来源：{esc(r.get('source'))}｜Helpful：{esc(r.get('helpful_votes'))}｜采集：{esc(r.get('collected_at'))}</div>
-        </article>
-        """
-        for r in high_signal
     )
 
     coverage = "".join(
@@ -112,7 +183,10 @@ def build(report_date: str | None = None) -> Path:
     .card,.panel,.review {{ background:var(--card); border:1px solid var(--line); border-radius:20px; padding:18px; }}
     .k {{ color:var(--muted); font-size:14px; }} .v {{ font-size:34px; font-weight:800; margin:4px 0; }}
     .signals {{ display:grid; grid-template-columns:1.1fr .9fr; gap:16px; }}
-    @media (max-width:800px) {{ .signals {{ grid-template-columns:1fr; }} }}
+    .rating-grid {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:14px; }}
+    .rating-card {{ background:var(--card); border:1px solid var(--line); border-radius:20px; padding:18px; }}
+    .quote-grid {{ display:grid; grid-template-columns:1fr 1fr; gap:14px; }}
+    @media (max-width:800px) {{ .signals,.quote-grid {{ grid-template-columns:1fr; }} }}
     ul {{ padding-left:20px; line-height:1.8; }}
     .tag-list {{ list-style:none; padding:0; margin:0; }}
     .tag-list li {{ display:flex; justify-content:space-between; border-bottom:1px solid var(--line); padding:10px 0; gap:16px; }}
@@ -120,7 +194,7 @@ def build(report_date: str | None = None) -> Path:
     .review-head {{ display:flex; flex-wrap:wrap; gap:8px; margin-bottom:10px; }}
     .review-head span {{ background:#f1e2d4; color:#5c3b28; border-radius:999px; padding:5px 10px; font-size:13px; }}
     .review h3 {{ margin:6px 0; font-size:19px; }}
-    .meta {{ color:var(--muted); font-size:13px; line-height:1.6; }}
+    .meta,.muted {{ color:var(--muted); font-size:13px; line-height:1.6; }}
     .warn {{ background:#fff3e8; border-left:5px solid var(--accent); }}
     footer {{ margin-top:36px; color:var(--muted); font-size:13px; }}
   </style>
@@ -143,12 +217,7 @@ def build(report_date: str | None = None) -> Path:
   <section class="signals">
     <div class="panel">
       <h2>01｜本周核心结论</h2>
-      <ul>
-        <li>M5 Smart 本周新增 20 条评论，全部 5 星且为 Verified Purchase，正向心智非常集中。</li>
-        <li>最强卖点是 hands-free / wireless 带来的场景解放：家务、上班、通勤、夜间泵奶都被频繁提到。</li>
-        <li>用户认可“吸力温和但有效”，多条评论提到产量不输传统电动泵，能缓解无线泵效率焦虑。</li>
-        <li>风险点集中在 App 后台耗电/状态残留、噪音、佩戴显形、容量/无盖/不能直立、装配不严漏奶。</li>
-      </ul>
+      <ul>{''.join(f'<li>{esc(item)}</li>' for item in conclusion_items)}</ul>
     </div>
     <div class="panel">
       <h2>02｜主题热度</h2>
@@ -157,12 +226,19 @@ def build(report_date: str | None = None) -> Path:
   </section>
 
   <section>
-    <h2>03｜高信号原文摘录</h2>
-    {review_rows}
+    <h2>03｜新增评论：按打星数分类</h2>
+    <p class="sub">4–5 星只做分类总结；1–2 星逐条列出英文原文与中文翻译，便于直接进入产品/客服闭环。</p>
+    <div class="rating-grid">{rating_summary_rows}</div>
+
+    <h2>04｜3 星中性/混合评论</h2>
+    {mid_rows}
+
+    <h2>05｜1–2 星低分评论逐条列表</h2>
+    {low_rows}
   </section>
 
   <section class="panel warn">
-    <h2>04｜覆盖与异常</h2>
+    <h2>06｜覆盖与异常</h2>
     <p>本周已按配额保护策略处理：Canopy 返回 402 Payment Required 后，不继续循环重试、不扩大 ASIN、不翻页烧额度。</p>
     <ul>{coverage or '<li>无异常</li>'}</ul>
     <ul>{unlisted_html}</ul>
