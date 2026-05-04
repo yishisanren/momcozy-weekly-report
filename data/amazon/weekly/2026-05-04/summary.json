@@ -1,0 +1,72 @@
+{
+  "date": "2026-05-04",
+  "domain": "US",
+  "max_requests": 8,
+  "requests_used": 2,
+  "new_review_count": 20,
+  "product_summary_count": 0,
+  "errors": [
+    {
+      "asin": "B0CGXMJF8S",
+      "model": "M9",
+      "stage": "reviews",
+      "error": "402 Client Error: Payment Required for url: https://rest.canopyapi.co/api/amazon/product/reviews?asin=B0CGXMJF8S&domain=US&page=1"
+    },
+    {
+      "asin": "B0DBYF4Z6L",
+      "model": "Air 1",
+      "stage": "reviews",
+      "error": "402 Client Error: Payment Required for url: https://rest.canopyapi.co/api/amazon/product/reviews?asin=B0DBYF4Z6L&domain=US&page=1"
+    },
+    {
+      "asin": "B0DR18KGBW",
+      "model": "BM04",
+      "stage": "reviews",
+      "error": "402 Client Error: Payment Required for url: https://rest.canopyapi.co/api/amazon/product/reviews?asin=B0DR18KGBW&domain=US&page=1"
+    },
+    {
+      "asin": "B0GJ8HDZ29",
+      "model": "BM08",
+      "stage": "reviews",
+      "error": "402 Client Error: Payment Required for url: https://rest.canopyapi.co/api/amazon/product/reviews?asin=B0GJ8HDZ29&domain=US&page=1"
+    },
+    {
+      "asin": "B0FXGTGQG7",
+      "model": "T31",
+      "stage": "reviews",
+      "error": "402 Client Error: Payment Required for url: https://rest.canopyapi.co/api/amazon/product/reviews?asin=B0FXGTGQG7&domain=US&page=1"
+    },
+    {
+      "asin": "B099RSXLGH",
+      "model": "Baby Sound Machine",
+      "stage": "product",
+      "error": "402 Client Error: Payment Required for url: https://rest.canopyapi.co/api/amazon/product?asin=B099RSXLGH&domain=US"
+    },
+    {
+      "asin": "B0D5CY5P9K",
+      "model": "Baby Sound Machine",
+      "stage": "product",
+      "error": "402 Client Error: Payment Required for url: https://rest.canopyapi.co/api/amazon/product?asin=B0D5CY5P9K&domain=US"
+    },
+    {
+      "asin": "B0D5CYDF9T",
+      "model": "Baby Sound Machine",
+      "stage": "product",
+      "error": "402 Client Error: Payment Required for url: https://rest.canopyapi.co/api/amazon/product?asin=B0D5CYDF9T&domain=US"
+    }
+  ],
+  "unlisted": [
+    {
+      "line": "吸奶器",
+      "model": "M10",
+      "status": "暂时未上架"
+    },
+    {
+      "line": "睡眠线",
+      "model": "BM04M/BM05",
+      "status": "暂时未上架"
+    }
+  ],
+  "dry_run": false,
+  "plan": []
+}
