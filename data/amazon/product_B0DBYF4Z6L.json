@@ -1,0 +1,77 @@
+{
+  "data": {
+    "amazonProduct": {
+      "title": "Momcozy Air 1 Wearable Breast Pump, Ultra-Slim Hands-Free Breast Pump with Wireless Charging Case, Top-View Visible, App Control, Auto Mode Switching, Milk Tracking & Full-Collector Alerts, 6oz Ultra-Slim Air 1",
+      "subtitle": "Visit the Momcozy Store",
+      "brand": "Momcozy",
+      "url": "https://www.amazon.com/Momcozy-Ultra-Slim-Hands-Free-Switching-Transparent/dp/B0DBYF4Z6L",
+      "asin": "B0DBYF4Z6L",
+      "isPrime": true,
+      "isNew": true,
+      "isInStock": true,
+      "price": {
+        "symbol": "$",
+        "value": 332.99,
+        "currency": "USD",
+        "display": "$332.99"
+      },
+      "mainImageUrl": "https://m.media-amazon.com/images/I/61C+3L40vOL.jpg",
+      "imageUrls": [
+        "https://m.media-amazon.com/images/I/616aBKA46LL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/6148gbetr+L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/617Lp-kB9dL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/717rrcFlaDL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61B0fZIgp7L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71JW+tJkVjL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61r5-zH+1fL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/613kph6bdiL._AC_SL1500_.jpg"
+      ],
+      "rating": 4.3,
+      "ratingsTotal": 1540,
+      "featureBullets": [
+        "【Ultra-Slim & Discreet Design】 – At just 2.4 inches thick, this wearable breast pump is 20% slimmer than conventional pumps. It fits invisibly under clothing, allowing you to pump with complete privacy and confidence at work, on the road, or in social gatherings. Reclaim your freedom and comfort effortlessly.",
+        "【Transparent Top for Easy Alignment & Peace of Mind】 – The industry-first transparent top lets you quickly confirm optimal nipple alignment for maximum comfort and efficiency. Watch your milk volume in real-time without interrupting your session, giving you visual reassurance that every precious drop is captured.",
+        "【All-Day Wireless Freedom & Portable】 – Enjoy true cord-free convenience with the powerful 1800mAh charging case, which supports up to 15 pumping sessions or 5 days of use. Perfect for busy moms, whether you're powering through a work shift or relaxing at home—no outlet needed.",
+        "【Smart App Control for Personalised Pumping】 – Sync with the Momcozy app to customise pumping modes, track milk volume in real time, and receive “Full Collector” alerts. Turn each session into a calm, efficient, and personalised experience that adapts to your body's natural rhythm—all from your phone.",
+        "【Easy to Clean & Assemble】– With only 5 parts to clean and no extra tools needed, the Air 1 Breast Pump is easy to assemble and maintain. The non-porous PPSU milk collector is designed for easy cleaning, so you can spend less time washing and more time enjoying yourself."
+      ],
+      "coupon": null,
+      "seller": {
+        "sellerId": "A2RUR1SZUS1KZN",
+        "name": "Momcozy Official Store"
+      },
+      "categories": [
+        {
+          "id": null,
+          "url": "https://www.amazon.com/b/undefined",
+          "name": "Baby"
+        },
+        {
+          "id": "165796011",
+          "url": "https://www.amazon.com/baby-car-seats-strollers-bedding/b/ref=dp_bc_1?ie=UTF8&node=165796011",
+          "name": "Baby Products"
+        },
+        {
+          "id": "166777011",
+          "url": "https://www.amazon.com/baby-feeding-highchair-bottle-bibs/b/ref=dp_bc_2?ie=UTF8&node=166777011",
+          "name": "Feeding"
+        },
+        {
+          "id": "166784011",
+          "url": "https://www.amazon.com/Breastfeeding-Supplies/b/ref=dp_bc_3?ie=UTF8&node=166784011",
+          "name": "Breastfeeding"
+        },
+        {
+          "id": "166786011",
+          "url": "https://www.amazon.com/Breast-Pumps/b/ref=dp_bc_4?ie=UTF8&node=166786011",
+          "name": "Breast Pumps"
+        },
+        {
+          "id": "2492161011",
+          "url": "https://www.amazon.com/Electric-Double-Breast-Pumps/b/ref=dp_bc_5?ie=UTF8&node=2492161011",
+          "name": "Electric"
+        }
+      ]
+    }
+  }
+}

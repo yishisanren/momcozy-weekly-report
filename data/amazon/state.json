@@ -274,6 +274,84 @@
       ],
       "dry_run": false,
       "canopy_key_count": 2
+    },
+    {
+      "date": "2026-05-11",
+      "domain": "US",
+      "max_requests": 8,
+      "requests_used": 0,
+      "new_review_count": 0,
+      "product_summary_count": 0,
+      "errors": [
+        {
+          "asin": "B0F7XTHCNY",
+          "model": "M5 Smart",
+          "stage": "reviews",
+          "error": "All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests offered by your plan"
+        },
+        {
+          "asin": "B0CGXMJF8S",
+          "model": "M9",
+          "stage": "reviews",
+          "error": "All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests offered by your plan"
+        },
+        {
+          "asin": "B0DBYF4Z6L",
+          "model": "Air 1",
+          "stage": "reviews",
+          "error": "All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests offered by your plan"
+        },
+        {
+          "asin": "B0DR18KGBW",
+          "model": "BM04",
+          "stage": "reviews",
+          "error": "All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests offered by your plan"
+        },
+        {
+          "asin": "B0GJ8HDZ29",
+          "model": "BM08",
+          "stage": "reviews",
+          "error": "All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests offered by your plan"
+        },
+        {
+          "asin": "B0FXGTGQG7",
+          "model": "T31",
+          "stage": "reviews",
+          "error": "All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests offered by your plan"
+        },
+        {
+          "asin": "B099RSXLGH",
+          "model": "Baby Sound Machine",
+          "stage": "product",
+          "error": "All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests offered by your plan"
+        },
+        {
+          "asin": "B0D5CY5P9K",
+          "model": "Baby Sound Machine",
+          "stage": "product",
+          "error": "All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests offered by your plan"
+        },
+        {
+          "asin": "B0D5CYDF9T",
+          "model": "Baby Sound Machine",
+          "stage": "product",
+          "error": "All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests offered by your plan"
+        }
+      ],
+      "unlisted": [
+        {
+          "line": "吸奶器",
+          "model": "M10",
+          "status": "暂时未上架"
+        },
+        {
+          "line": "睡眠线",
+          "model": "BM04M/BM05",
+          "status": "暂时未上架"
+        }
+      ],
+      "dry_run": false,
+      "canopy_key_count": 2
     }
   ]
 }

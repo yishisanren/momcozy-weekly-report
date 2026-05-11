@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Momcozy Amazon 产品评论周报｜2026-05-11</title>
+  <style>
+    :root { --bg:#f7f3ee; --ink:#24201c; --muted:#756b60; --card:#fffaf4; --accent:#b85c38; --line:#eadfd2; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Noto Sans CJK SC",Arial,sans-serif; background:var(--bg); color:var(--ink); }
+    main { max-width:1120px; margin:0 auto; padding:36px 18px 64px; }
+    .hero { padding:34px; border-radius:28px; background:linear-gradient(135deg,#fffaf4,#f0dfcf); box-shadow:0 18px 60px rgba(90,55,30,.12); }
+    .eyebrow { color:var(--accent); letter-spacing:.08em; font-weight:700; }
+    h1 { margin:10px 0 8px; font-size:clamp(30px,6vw,58px); line-height:1.05; }
+    h2 { margin:34px 0 14px; font-size:24px; }
+    p { line-height:1.75; }
+    .sub { color:var(--muted); max-width:760px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:14px; margin-top:20px; }
+    .card,.panel,.review { background:var(--card); border:1px solid var(--line); border-radius:20px; padding:18px; }
+    .k { color:var(--muted); font-size:14px; } .v { font-size:34px; font-weight:800; margin:4px 0; }
+    .signals { display:grid; grid-template-columns:1.1fr .9fr; gap:16px; }
+    .rating-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:14px; }
+    .rating-card { background:var(--card); border:1px solid var(--line); border-radius:20px; padding:18px; }
+    .quote-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+    @media (max-width:800px) { .signals,.quote-grid { grid-template-columns:1fr; } }
+    ul { padding-left:20px; line-height:1.8; }
+    .tag-list { list-style:none; padding:0; margin:0; }
+    .tag-list li { display:flex; justify-content:space-between; border-bottom:1px solid var(--line); padding:10px 0; gap:16px; }
+    .review { margin:12px 0; }
+    .review-head { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:10px; }
+    .review-head span { background:#f1e2d4; color:#5c3b28; border-radius:999px; padding:5px 10px; font-size:13px; }
+    .review h3 { margin:6px 0; font-size:19px; }
+    .meta,.muted { color:var(--muted); font-size:13px; line-height:1.6; }
+    .warn { background:#fff3e8; border-left:5px solid var(--accent); }
+    footer { margin-top:36px; color:var(--muted); font-size:13px; }
+  </style>
+</head>
+<body>
+<main>
+  <section class="hero">
+    <div class="eyebrow">AMAZON PRODUCT REVIEW WEEKLY</div>
+    <h1>Momcozy Amazon 产品评论周报</h1>
+    <p class="sub">周期：2026-05-11｜数据源：Canopy + ASIN 白名单｜本页只展示 Amazon 产品评论，不是 App Store / Play Store / Reddit 周报。</p>
+    <div class="grid">
+      <div class="card"><div class="k">新增评论</div><div class="v">0</div><p>本周采集到的 review-level 内容</p></div>
+      <div class="card"><div class="k">Verified Purchase</div><div class="v">0</div><p>已验证购买评论</p></div>
+      <div class="card"><div class="k">Canopy 成功请求</div><div class="v">0/8</div><p>402 表示 Canopy 计划/权限拦截，不代表本轮成功消耗</p></div>
+      <div class="card"><div class="k">评分分布</div><div class="v">—</div><p>本周新增评论评分</p></div>
+      <div class='card'><div class='k'>无新增</div><div class='v'>0</div><p>新增评论</p></div>
+    </div>
+  </section>
+
+  <section class="signals">
+    <div class="panel">
+      <h2>01｜本周核心结论</h2>
+      <ul><li>本周新增 0 条 Amazon 评论；评分结构为 —。</li><li>本周没有新增 1–2 星低分评论。</li></ul>
+    </div>
+    <div class="panel">
+      <h2>02｜主题热度</h2>
+      <ul class="tag-list"></ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>03｜新增评论：按打星数分类</h2>
+    <p class="sub">4–5 星只做分类总结；1–2 星逐条列出英文原文与中文翻译，便于直接进入产品/客服闭环。</p>
+    <div class="rating-grid"><article class='rating-card'><h3>5 星</h3><p class='muted'>本周无新增。</p></article><article class='rating-card'><h3>4 星</h3><p class='muted'>本周无新增。</p></article></div>
+
+    <h2>04｜3 星中性/混合评论</h2>
+    <p class='muted'>本周无 3 星新增评论。</p>
+
+    <h2>05｜1–2 星低分评论逐条列表</h2>
+    <h3>2 星｜0 条</h3><p class='muted'>本周无新增。</p><h3>1 星｜0 条</h3><p class='muted'>本周无新增。</p>
+  </section>
+
+  <section class="panel warn">
+    <h2>06｜覆盖与异常</h2>
+    <p>本周已按配额保护策略处理：Canopy 返回 402 Payment Required 时，按接口返回的计划/权限/额度信息记录原因；不继续循环重试、不扩大 ASIN、不翻页烧额度。</p>
+    <ul><li>M5 Smart B0F7XTHCNY：reviews 返回 All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests offered by your plan</li><li>M9 B0CGXMJF8S：reviews 返回 All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests offered by your plan</li><li>Air 1 B0DBYF4Z6L：reviews 返回 All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests offered by your plan</li><li>BM04 B0DR18KGBW：reviews 返回 All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests offered by your plan</li><li>BM08 B0GJ8HDZ29：reviews 返回 All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests offered by your plan</li><li>T31 B0FXGTGQG7：reviews 返回 All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests offered by your plan</li><li>Baby Sound Machine B099RSXLGH：product 返回 All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests offered by your plan</li><li>Baby Sound Machine B0D5CY5P9K：product 返回 All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests offered by your plan</li><li>Baby Sound Machine B0D5CYDF9T：product 返回 All Canopy keys unavailable: key#1:402 You have reached the limit of requests offered by your plan. Please upgrade for more requests at https://www.canopyapi.co/account | key#2:402 You have reached the limit of requests offered by your plan</li></ul>
+    <ul><li>M10：暂时未上架</li><li>BM04M/BM05：暂时未上架</li></ul>
+  </section>
+
+  <footer>Generated from data/amazon/weekly/2026-05-11. Amazon 页面路径：amazon-reports/2026-05-11/index.html</footer>
+</main>
+</body>
+</html>

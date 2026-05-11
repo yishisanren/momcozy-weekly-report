@@ -1,0 +1,77 @@
+{
+  "data": {
+    "amazonProduct": {
+      "title": "Momcozy Breast Pump Hands Free Upgraded Mobile Flow | M9, App Discreet Control with Personalized Multi-Modes & 15 Levels, Wearable Breast Pump 24mm, 2 Pack Gray 2 Pumps-Gray",
+      "subtitle": "Visit the Momcozy Store",
+      "brand": "Momcozy",
+      "url": "https://www.amazon.com/Momcozy-Upgraded-Discreet-Personalized-Multi-Modes/dp/B0CGXMJF8S",
+      "asin": "B0CGXMJF8S",
+      "isPrime": true,
+      "isNew": true,
+      "isInStock": true,
+      "price": {
+        "symbol": "$",
+        "value": 229.49,
+        "currency": "USD",
+        "display": "$229.49"
+      },
+      "mainImageUrl": "https://m.media-amazon.com/images/I/61hZW2HKpvL.jpg",
+      "imageUrls": [
+        "https://m.media-amazon.com/images/I/618QWtqbkXL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61DxK2SIeDL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61VKcFURWkL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61Dp2-vDEcL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61FItny0MaL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/616ycxladiL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61FpVbhLHdL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61zLkXIh5YL._AC_SL1500_.jpg"
+      ],
+      "rating": 4.2,
+      "ratingsTotal": 1683,
+      "featureBullets": [
+        "Smart Pumping: Control the Upgraded Mobile Flow via the \"Momcozy\" app to start/pause/countdown pumping and switch to different pumping settings. No need to reach into your bra! Record every breastmilk yield to track your pumping history. Know yourself better, Pump on your terms.",
+        "Stronger & Quieter: Our 3rd Gen Pump boasts an upgraded pumping efficiency with reduced noise. It supports up to 15 suction levels under every pattern. Enjoy a more comfortable, stronger suction and efficient pumping experience with Momcozy Upgraded Mobile Flow！",
+        "Multi-Modes: Select from 3 regular modes (Stimulation+ Expression+Mixed) on the pump motor. You can also experience the Personalized Modes and 2 Specialist Modes (Milk Relief+Milk Boost) from your phone. Craft your rhythm to suit your comfort and preference. You will always find your optimal mode!",
+        "More Fit & Discreet: Mobile Flow breast pump adopts DoubleFit Flange combining soft and hard silicone to ensure better comfort and safety. The drop-shaped design of the M9 breast pump fits seamlessly in the pump bra, allowing moms to pump with total privacy.",
+        "For Most Moms: Momcozy Breast Pump Portable Mobile Flow offers 4 sizes (15/17/19/21mm) and an exquisite storage handbag. One charge for One day. Only 4 parts to clean. Spend your breastfeeding life with more ease"
+      ],
+      "coupon": null,
+      "seller": {
+        "sellerId": "A2RUR1SZUS1KZN",
+        "name": "Momcozy Official Store"
+      },
+      "categories": [
+        {
+          "id": null,
+          "url": "https://www.amazon.com/b/undefined",
+          "name": "Health, Household & Baby Care"
+        },
+        {
+          "id": "165796011",
+          "url": "https://www.amazon.com/baby-car-seats-strollers-bedding/b/ref=dp_bc_1?ie=UTF8&node=165796011",
+          "name": "Baby Products"
+        },
+        {
+          "id": "166777011",
+          "url": "https://www.amazon.com/baby-feeding-highchair-bottle-bibs/b/ref=dp_bc_2?ie=UTF8&node=166777011",
+          "name": "Feeding"
+        },
+        {
+          "id": "166784011",
+          "url": "https://www.amazon.com/Breastfeeding-Supplies/b/ref=dp_bc_3?ie=UTF8&node=166784011",
+          "name": "Breastfeeding"
+        },
+        {
+          "id": "166786011",
+          "url": "https://www.amazon.com/Breast-Pumps/b/ref=dp_bc_4?ie=UTF8&node=166786011",
+          "name": "Breast Pumps"
+        },
+        {
+          "id": "2492161011",
+          "url": "https://www.amazon.com/Electric-Double-Breast-Pumps/b/ref=dp_bc_5?ie=UTF8&node=2492161011",
+          "name": "Electric"
+        }
+      ]
+    }
+  }
+}
